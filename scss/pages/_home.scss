@@ -43,11 +43,8 @@ body {
     width: 100%;
     .image {
       background-color: #197278;
-      height: 25em;
-      width: 25%;
-      // display: flex;
-      // flex-direction: column;
-      // justify-content: flex-end;
+      height: 20em;
+      width: 22em;
       border: .063em solid white;
       p {
         opacity: 0;
@@ -59,7 +56,7 @@ body {
         text-transform: uppercase;
         margin: 0;
         text-align: center;
-        line-height: 400px;
+        line-height: 20em;
         &:hover {
           opacity: 1;
         }

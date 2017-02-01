@@ -40,3 +40,23 @@ p {
   letter-spacing: .14em;
   line-height: 1.7em;
 }
+
+//Responsive Font Sizes//
+
+@media screen and (min-width: 1700px) {
+  html {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  html {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  html {
+    font-size: 2em;
+  }
+}
