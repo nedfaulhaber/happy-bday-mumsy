@@ -2,6 +2,42 @@ body {
   background-color: #321325;
 }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000016;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    color: #D8BFAA;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
+    &:hover, &:active {
+      color: #EBF5EE;
+    }
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em;
+  }
+  .closebtn {
+    font-size: 4em;
+    padding-left: .75em;
+  }
+}
+
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -10,7 +46,7 @@ body {
   height: auto;
   background-color: #321325;
   color: #F3E9DC;
-  margin: 3em 0 4em 0;
+  margin: 3em 0 1em 0;
   padding: 0 3em 0;
   a {
     color: #F3E9DC;
@@ -18,6 +54,11 @@ body {
     &:hover {
       color: steelblue;
     }
+  }
+  @media screen and (max-width: 524px) {
+  display: none;
+  height: 0;
+  width: 0;
   }
 }
 
@@ -30,7 +71,25 @@ body {
   text-align: center;
   width: 100%;
   height: auto;
-  padding: 0 14em 0 11em;
+  padding: 0 14em 0 14em;
+  @media screen and (max-width: 525px) {
+    padding: 1em 2em 0;
+  }
+  h1 {
+    margin-bottom: 2em;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
 }
 
 .gallery {
@@ -41,10 +100,26 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    @media only screen and (max-width: 625px) {
+      flex-direction: column;
+      align-items: center;
+    }
     .image {
       background-color: #197278;
       height: 20em;
       width: 22em;
+      @media screen and (max-width: 1023px) {
+        width: 27em;
+      }
+      @media screen and (min-width: 2300px) {
+        width: 25em;
+      }
+      @media screen and (max-width: 1022px) {
+        width: 23em;
+      }
+      @media only screen and (max-width: 625px) {
+        width: 75%;
+      }
       border: .063em solid white;
       p {
         opacity: 0;
