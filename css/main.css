@@ -256,6 +256,14 @@ body {
       background-image: url("../img/tribeminusphife.png");
       background-position: center;
       background-size: cover; }
+    .gallery .row #rihanna {
+      background-image: url("../img/rihanna.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #jblake {
+      background-image: url("../img/jblake.png");
+      background-position: center;
+      background-size: cover; }
 
 .wrapper {
   background-color: #B3DEAF; }
