@@ -292,9 +292,14 @@ body {
       .graphboxythingy .column .box img {
         height: 100%;
         width: 100%; }
-    .graphboxythingy .column #vice, .graphboxythingy .column #alive {
+    .graphboxythingy .column #vice, .graphboxythingy .column #alive, .graphboxythingy .column #runthisplace {
       background-image: url("../img/Vice - EP.png");
       background-position: center;
-      background-size: cover; }
+      background-size: cover;
+      border: 2px solid #E61422;
+      color: #FFF100;
+      text-shadow: 2px 2px 2px black; }
+      .graphboxythingy .column #vice p, .graphboxythingy .column #alive p, .graphboxythingy .column #runthisplace p {
+        font-size: 1.3em; }
 
 /*# sourceMappingURL=main.css.map */
