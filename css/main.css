@@ -280,6 +280,34 @@ body {
       background-image: url("../img/stetsonneufeld.png");
       background-position: center;
       background-size: cover; }
+    .gallery .row #kendrick {
+      background-image: url("../img/kendrick.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #damrau {
+      background-image: url("../img/damrau.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #anohni {
+      background-image: url("../img/anohni.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #frank {
+      background-image: url("../img/frank.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #chance {
+      background-image: url("../img/chance.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #weeknd {
+      background-image: url("../img/weeknd.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #joanna {
+      background-image: url("../img/joanna.png");
+      background-position: center;
+      background-size: cover; }
 
 .wrapper {
   background-color: #B3DEAF; }
