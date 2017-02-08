@@ -74,6 +74,7 @@ body {
   padding: 0 14em 0 14em;
   @media screen and (max-width: 525px) {
     padding: 1em 2em 0;
+    font-size: 1.5em;
   }
   h1 {
     margin-bottom: 2em;
@@ -121,36 +122,46 @@ body {
         width: 75%;
       }
       border: .063em solid white;
+      @media only screen and (max-width: 1029px) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
       p {
-        opacity: 0;
-        color: white;
-        transition: .2s;
-        text-shadow: 0 0 1px black;
-        position: relative;
-        z-index: 2;
-        text-transform: uppercase;
-        margin: 0;
-        text-align: center;
-        line-height: 20em;
+        padding: 0 3em 2em 0;
         a {
           text-decoration: none;
+          text-shadow: 0 0 1px black;
           color: white;
         }
-        &:hover {
-          opacity: 1;
-        }
-        &:after, &:before {
-          z-index: -1;
+        @media screen and (min-width: 1030px) {
+          padding: 0;
+          opacity: 0;
+          color: white;
           transition: .2s;
-          content: "";
-          background-size: cover;
-          background-position: center;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.6);
+          text-shadow: 0 0 1px black;
+          position: relative;
+          z-index: 2;
+          text-transform: uppercase;
+          margin: 0;
+          text-align: center;
+          line-height: 20em;
+          &:hover {
+            opacity: 1;
+          }
+          &:after, &:before {
+            z-index: -1;
+            transition: .2s;
+            content: "";
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+          }
         }
       }
     }
@@ -158,6 +169,11 @@ body {
       background-image: url('../img/kamasi2.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 1029px) {
+        a {
+          text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
+        }
+      }
     }
     #tribe {
       background-image: url('../img/tribeminusphife.png');
@@ -178,31 +194,56 @@ body {
       background-image: url('../img/solange.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 1029px) {
+        a {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+        }
+      }
+      @media screen and (max-width: 415px) {
+        background-position: 0 10%;
+      }
     }
     #flume {
       background-image: url('../img/flume.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: 0 10%;
+      }
     }
     #cudi {
       background-image: url('../img/cudi.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: 0 12%;
+      }
     }
     #stetsonneufeld {
       background-image: url('../img/stetsonneufeld.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          padding-right: .4em;
+        }
+      }
     }
     #kendrick {
       background-image: url('../img/kendrick.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: top;
+      }
     }
     #damrau {
       background-image: url('../img/damrau.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: top;
+      }
     }
     #anohni {
       background-image: url('../img/anohni.png');
@@ -213,6 +254,9 @@ body {
       background-image: url('../img/frank.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: top;
+      }
     }
     #chance {
       background-image: url('../img/chance.png');
@@ -228,6 +272,14 @@ body {
       background-image: url('../img/joanna.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 1029px) {
+        a {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+        }
+        p {
+          padding-right: 1em;
+        }
+      }
     }
   }
 }
