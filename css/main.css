@@ -411,18 +411,18 @@ body {
 #kamasi-wrapper {
   background-color: #976023; }
 
-.sidenav {
+.k-sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #197278;
+  background-color: #261603;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em; }
-  .sidenav a {
+  .k-sidenav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     color: #F3E9DC;
@@ -430,14 +430,14 @@ body {
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-    .sidenav a:hover, .sidenav a:active {
-      color: #7E4B0A; }
-  .sidenav .sidenav .closebtn {
+    .k-sidenav a:hover, .k-sidenav a:active {
+      color: #976023; }
+  .k-sidenav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  .sidenav .closebtn {
+  .k-sidenav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
 

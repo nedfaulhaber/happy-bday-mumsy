@@ -2,14 +2,14 @@
   background-color: #976023;
 }
 
-.sidenav {
+.k-sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #197278;
+  background-color: #261603;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
@@ -22,7 +22,7 @@
     transition: 0.3s;
     font-family: 'Satisfy', cursive;
     &:hover, &:active {
-      color: #7E4B0A;
+      color: #976023;
     }
   }
   .sidenav .closebtn {
