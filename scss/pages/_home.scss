@@ -49,6 +49,7 @@ body {
   margin: 3em 0 1em 0;
   padding: 0 3em 0;
   a {
+    font-family: 'Satisfy', cursive;
     color: #F3E9DC;
     text-decoration: none;
     &:hover {
@@ -78,6 +79,7 @@ body {
   }
   h1 {
     margin-bottom: 2em;
+    font-family: 'Unkempt', cursive;
   }
   .hamburger {
     align-self: flex-start;
