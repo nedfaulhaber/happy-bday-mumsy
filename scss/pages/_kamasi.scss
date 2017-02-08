@@ -62,27 +62,27 @@
 }
 
 .artist-header {
-  margin: 5em 0 0 3em;
-  h2 {
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
-    color: #261603;
-    margin-bottom: .2em;
-  }
-  .artist-sub {
-    font-family: 'Cinzel', serif;
-    font-size: 2em;
-    font-weight: 700;
-    color: #261603;
-    margin-bottom: .2em;
-
-  }
-  h3 {
-    color: #261603;
-    margin-bottom: .3em;
-    font-family: 'Cinzel', serif;
-    font-weight: 400;
-  }
+  @include artist;
+  @include song;
+  // margin: 5em 0 0 3em;
+  // h2 {
+  //   font-family: 'Sports Mill Goudy', serif;
+  //   margin-bottom: .2em;
+  //   color: #261603;
+  // }
+  // .song {
+  //   font-family: 'Raleway', sans-serif;
+  //   margin-bottom: .2em;
+  //   font-size: 1.75em;
+  //   color: #261603;
+  // }
+  // span {
+  //   font-weight: 300;
+  //   font-size: .6em;
+  //   em {
+  //     font-style: italic;
+  //   }
+  // }
   .hamburger {
     align-self: flex-start;
     color: white;
@@ -95,4 +95,8 @@
       width: 0;
     }
   }
+}
+
+.content {
+  height: 20em;
 }

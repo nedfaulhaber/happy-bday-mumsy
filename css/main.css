@@ -61,21 +61,15 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-size: 2.827em;
-  letter-spacing: .2em;
+  font-size: 2.75em;
   font-weight: 400; }
 
 h3 {
   font-size: 1.5em;
-  letter-spacing: .1em;
   font-weight: 400; }
 
 h4 {
-  font-size: 1.2em;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  letter-spacing: .2em;
-  line-height: 1em; }
+  font-size: 1.2em; }
 
 p {
   font-size: 1em;
@@ -463,23 +457,21 @@ body {
       width: 0; } }
 
 .artist-header {
-  margin: 5em 0 0 3em; }
+  margin: 5em 0 0 3em;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: .2em;
+  font-size: 1.75em;
+  color: #261603; }
   .artist-header h2 {
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
-    color: #261603;
-    margin-bottom: .2em; }
-  .artist-header .artist-sub {
-    font-family: 'Cinzel', serif;
-    font-size: 2em;
-    font-weight: 700;
-    color: #261603;
-    margin-bottom: .2em; }
-  .artist-header h3 {
-    color: #261603;
-    margin-bottom: .3em;
-    font-family: 'Cinzel', serif;
-    font-weight: 400; }
+    font-family: 'Sports Mill Goudy', serif;
+    margin-bottom: .2em;
+    font-size: 1.75em;
+    color: #261603; }
+  .artist-header span {
+    font-weight: 300;
+    font-size: .6em; }
+    .artist-header span em {
+      font-style: italic; }
   .artist-header .hamburger {
     align-self: flex-start;
     color: white;
@@ -491,5 +483,8 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+
+.content {
+  height: 20em; }
 
 /*# sourceMappingURL=main.css.map */
