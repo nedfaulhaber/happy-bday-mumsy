@@ -4,26 +4,19 @@ body {
 
 #mobile-nav {
   @include mobilenav;
+  background-color: #197278;
+  a {
+    &:hover, &:active {
+      color: #7E4B0A;
+    }
+  }
 }
 
-
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: auto;
+  @include nav;
   background-color: #321325;
-  color: #F3E9DC;
-  margin: 3em 0 1em 0;
-  padding: 0 3em 0;
   a {
-    font-family: 'Satisfy', cursive;
     color: #F3E9DC;
-    text-decoration: none;
-    &:hover {
-      color: steelblue;
-    }
   }
   @media screen and (max-width: 524px) {
   display: none;

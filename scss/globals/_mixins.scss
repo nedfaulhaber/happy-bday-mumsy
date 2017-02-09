@@ -43,7 +43,6 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #197278;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
@@ -55,9 +54,6 @@
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive;
-    &:hover, &:active {
-      color: #7E4B0A;
-    }
   }
   .sidenav .closebtn {
     position: absolute;
@@ -68,5 +64,22 @@
   .closebtn {
     font-size: 4em;
     padding-left: .75em;
+  }
+}
+
+@mixin nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  a {
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    &:hover {
+      color: steelblue;
+    }
   }
 }

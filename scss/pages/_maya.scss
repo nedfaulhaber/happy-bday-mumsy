@@ -2,6 +2,19 @@
   background-color: #B3DEAF;
 }
 
+#maya-nav {
+  @include nav;
+  background-color: #B3DEAF;
+  a {
+    color: #52238C;
+  }
+  @media screen and (max-width: 524px) {
+  display: none;
+  height: 0;
+  width: 0;
+  }
+}
+
 .link {
   padding: 2em 0 0 2em;
   a {

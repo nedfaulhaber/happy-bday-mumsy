@@ -10,7 +10,7 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: $tan;
+  background-color: $brown;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
@@ -23,7 +23,7 @@
     transition: 0.3s;
     font-family: 'Satisfy', cursive;
     &:hover, &:active {
-      color: #976023;
+      color: $tan;
     }
   }
   .sidenav .closebtn {
@@ -39,21 +39,10 @@
 }
 
 #k-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  background-color: #976023;
-  margin: 0 0 1em 0;
-  padding: 3em 3em 0;
+  @include nav;
+  background-color: $tan;
   a {
-    font-family: 'Satisfy', cursive;
-    color: $tan;
-    text-decoration: none;
-    &:hover {
-      color: steelblue;
-    }
+    color: $brown;
   }
   @media screen and (max-width: 524px) {
   display: none;
@@ -64,7 +53,7 @@
 
 .artist-header {
   margin: $a-header;
-  color: #261603;
+  color: $brown;
   @include artist;
   .song {
     @include song;
@@ -86,7 +75,7 @@
 .content {
   height: auto;
   margin: $content;
-  color: $tan;
+  color: $brown;
   img {
     @include artist-img;
   }
