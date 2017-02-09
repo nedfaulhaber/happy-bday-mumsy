@@ -69,14 +69,18 @@ h3 {
   font-weight: 400; }
 
 h4 {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: .14em;
+  line-height: 1.7em; }
 
 p {
   font-size: 1em;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  letter-spacing: .14em;
-  line-height: 1.7em; }
+  letter-spacing: .05em;
+  line-height: 1.7em;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  text-indent: 1.5em; }
 
 @media screen and (min-width: 320px) {
   html {
@@ -108,7 +112,7 @@ p {
 body {
   background-color: #321325; }
 
-.sidenav {
+#mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -119,7 +123,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em; }
-  .sidenav a {
+  #mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     color: #F3E9DC;
@@ -127,14 +131,14 @@ body {
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-    .sidenav a:hover, .sidenav a:active {
+    #mobile-nav a:hover, #mobile-nav a:active {
       color: #7E4B0A; }
-  .sidenav .sidenav .closebtn {
+  #mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  .sidenav .closebtn {
+  #mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
 
@@ -162,6 +166,7 @@ body {
 
 .header {
   color: #F3E9DC;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,7 +229,9 @@ body {
           justify-content: flex-end;
           align-items: flex-end; } }
       .gallery .row .image p {
-        padding: 0 3em 2em 0; }
+        padding: 0 3em 2em 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300; }
         .gallery .row .image p a {
           text-decoration: none;
           text-shadow: 0 0 1px black;
@@ -284,14 +291,14 @@ body {
           text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
       @media screen and (max-width: 415px) {
         .gallery .row #solange {
-          background-position: 0 10%; } }
+          background-position: 0 25%; } }
     .gallery .row #flume {
       background-image: url("../img/flume.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 415px) {
         .gallery .row #flume {
-          background-position: 0 10%; } }
+          background-position: 0 30%; } }
     .gallery .row #cudi {
       background-image: url("../img/cudi.png");
       background-position: center;
@@ -312,7 +319,9 @@ body {
       background-size: cover; }
       @media screen and (max-width: 415px) {
         .gallery .row #kendrick {
-          background-position: top; } }
+          background-position: top; }
+          .gallery .row #kendrick a {
+            text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
     .gallery .row #damrau {
       background-image: url("../img/damrau.png");
       background-position: center;
@@ -403,7 +412,8 @@ body {
         font-size: 1.3em; }
 
 #kamasi-wrapper {
-  background-color: #976023; }
+  background-color: #976023;
+  height: 100vh; }
 
 .k-sidenav {
   height: 100%;
@@ -457,7 +467,7 @@ body {
       width: 0; } }
 
 .artist-header {
-  margin: 5em 0 0 3em;
+  margin: 5em 0 3em 3em;
   color: #261603; }
   .artist-header h2 {
     font-family: 'Sorts Mill Goudy', serif;
@@ -484,6 +494,14 @@ body {
         width: 0; } }
 
 .content {
-  height: 20em; }
+  height: auto;
+  margin: 0 3em 2em 3em;
+  color: #261603; }
+  .content img {
+    height: auto;
+    width: 20%;
+    float: left;
+    margin-right: 1.5em;
+    border-radius: 2px; }
 
 /*# sourceMappingURL=main.css.map */
