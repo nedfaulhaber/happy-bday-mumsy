@@ -62,27 +62,12 @@
 }
 
 .artist-header {
+  margin: 5em 0 0 3em;
+  color: #261603;
   @include artist;
-  @include song;
-  // margin: 5em 0 0 3em;
-  // h2 {
-  //   font-family: 'Sports Mill Goudy', serif;
-  //   margin-bottom: .2em;
-  //   color: #261603;
-  // }
-  // .song {
-  //   font-family: 'Raleway', sans-serif;
-  //   margin-bottom: .2em;
-  //   font-size: 1.75em;
-  //   color: #261603;
-  // }
-  // span {
-  //   font-weight: 300;
-  //   font-size: .6em;
-  //   em {
-  //     font-style: italic;
-  //   }
-  // }
+  .song {
+    @include song;
+  }
   .hamburger {
     align-self: flex-start;
     color: white;

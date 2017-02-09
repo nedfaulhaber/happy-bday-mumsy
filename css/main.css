@@ -458,20 +458,19 @@ body {
 
 .artist-header {
   margin: 5em 0 0 3em;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: .2em;
-  font-size: 1.75em;
   color: #261603; }
   .artist-header h2 {
-    font-family: 'Sports Mill Goudy', serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: .2em; }
+  .artist-header .song {
+    font-family: 'Raleway', sans-serif;
     margin-bottom: .2em;
-    font-size: 1.75em;
-    color: #261603; }
-  .artist-header span {
-    font-weight: 300;
-    font-size: .6em; }
-    .artist-header span em {
-      font-style: italic; }
+    font-size: 1.75em; }
+    .artist-header .song span {
+      font-weight: 300;
+      font-size: .6em; }
+      .artist-header .song span em {
+        font-style: italic; }
   .artist-header .hamburger {
     align-self: flex-start;
     color: white;
