@@ -1,40 +1,13 @@
 #kamasi-wrapper {
-  background-color: #976023;
+  background-color: $tan;
   height: 100vh;
 }
 
 .k-sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
+  @include mobilenav;
   background-color: $brown;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 3.75em;
   a {
-    padding: 1em .5em .5em 2em;
-    text-decoration: none;
-    color: #F3E9DC;
-    font-size: 28px;
-    display: block;
-    transition: 0.3s;
-    font-family: 'Satisfy', cursive;
-    &:hover, &:active {
-      color: $tan;
-    }
-  }
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 3.125em;
-  }
-  .closebtn {
-    font-size: 4em;
-    padding-left: .75em;
+    color: $tan;
   }
 }
 
@@ -43,6 +16,9 @@
   background-color: $tan;
   a {
     color: $brown;
+    &:hover {
+      color: steelblue;
+    }
   }
   @media screen and (max-width: 524px) {
   display: none;

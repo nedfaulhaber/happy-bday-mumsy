@@ -112,7 +112,7 @@ p {
 body {
   background-color: #321325; }
 
-#mobile-nav {
+.sidenav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -123,24 +123,23 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #197278; }
-  #mobile-nav a {
+  .sidenav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
-    color: #F3E9DC;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  #mobile-nav .sidenav .closebtn {
+  .sidenav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #mobile-nav .closebtn {
+  .sidenav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #mobile-nav a:hover, #mobile-nav a:active {
-    color: #7E4B0A; }
+  .sidenav a {
+    color: #F3E9DC; }
 
 .nav {
   display: flex;
@@ -154,10 +153,10 @@ body {
   .nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
-    .nav a:hover {
-      color: steelblue; }
   .nav a {
     color: #F3E9DC; }
+    .nav a:hover {
+      color: steelblue; }
   @media screen and (max-width: 524px) {
     .nav {
       display: none;
@@ -373,10 +372,10 @@ body {
   #maya-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
-    #maya-nav a:hover {
-      color: steelblue; }
   #maya-nav a {
     color: #52238C; }
+    #maya-nav a:hover {
+      color: #804A11; }
   @media screen and (max-width: 524px) {
     #maya-nav {
       display: none;
@@ -444,20 +443,17 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #261603;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 3.75em; }
+  padding-top: 3.75em;
+  background-color: #261603; }
   .k-sidenav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
-    color: #F3E9DC;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-    .k-sidenav a:hover, .k-sidenav a:active {
-      color: #976023; }
   .k-sidenav .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -466,6 +462,8 @@ body {
   .k-sidenav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
+  .k-sidenav a {
+    color: #976023; }
 
 #k-nav {
   display: flex;
@@ -479,10 +477,10 @@ body {
   #k-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
-    #k-nav a:hover {
-      color: steelblue; }
   #k-nav a {
     color: #261603; }
+    #k-nav a:hover {
+      color: steelblue; }
   @media screen and (max-width: 524px) {
     #k-nav {
       display: none;

@@ -7,6 +7,9 @@
   background-color: #B3DEAF;
   a {
     color: #52238C;
+    &:hover {
+      color: #804A11;
+    }
   }
   @media screen and (max-width: 524px) {
   display: none;

@@ -49,7 +49,6 @@
   a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
-    color: #F3E9DC;
     font-size: 28px;
     display: block;
     transition: 0.3s;
@@ -78,8 +77,5 @@
   a {
     font-family: 'Satisfy', cursive;
     text-decoration: none;
-    &:hover {
-      color: steelblue;
-    }
   }
 }

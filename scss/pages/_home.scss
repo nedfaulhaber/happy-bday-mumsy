@@ -2,13 +2,11 @@ body {
   background-color: #321325;
 }
 
-#mobile-nav {
+.sidenav {
   @include mobilenav;
   background-color: #197278;
   a {
-    &:hover, &:active {
-      color: #7E4B0A;
-    }
+    color: #F3E9DC;
   }
 }
 
@@ -17,6 +15,9 @@ body {
   background-color: #321325;
   a {
     color: #F3E9DC;
+    &:hover {
+      color: steelblue;
+    }
   }
   @media screen and (max-width: 524px) {
   display: none;
