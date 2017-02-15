@@ -1,22 +1,22 @@
 .wrapper {
   background-color: #B3DEAF;
-}
+  }
 
-#maya-nav {
-  @include nav;
-  background-color: #B3DEAF;
-  a {
-    color: #52238C;
-    &:hover {
-      color: #804A11;
+  #maya-nav {
+    @include nav;
+    background-color: #B3DEAF;
+    a {
+      color: #660000;
+      &:hover {
+        color: #17BEBB;
+      }
+    }
+    @media screen and (max-width: 524px) {
+    display: none;
+    height: 0;
+    width: 0;
     }
   }
-  @media screen and (max-width: 524px) {
-  display: none;
-  height: 0;
-  width: 0;
-  }
-}
 
 .link {
   padding: 2em 0 0 2em;
@@ -38,6 +38,7 @@
   h1 {
     color: #36151E;
     padding-bottom: 0.5em;
+    font-family: 'Unkempt', cursive;
     }
   h4 {
     color: #660000;
@@ -67,7 +68,7 @@
         width: 100%;
       }
     }
-    #vice, #alive, #runthisplace {
+    #vice, #alive {
       background-image: url('../img/Vice - EP.png');
       background-position: center;
       background-size: cover;
@@ -77,6 +78,24 @@
       p {
         font-size: 1.3em;
       }
+    }
+    #runthisplace {
+      background-image: url('../img/Run this place - single.png');
+      background-position: center;
+      background-size: cover;
+      border: 2px solid #E61422;
+      color: #FFF100;
+      text-shadow: 2px 2px 2px black;
+      text-align: center;
+      p {
+        font-size: 1.3em;
+      }
+      #youtube1 #youtube2 {
+        color: #FFF100;
+        text-shadow: 2px 2px 2px black;
+        height: 100%;
+        width: 100%;
+    }
     }
   }
 }
