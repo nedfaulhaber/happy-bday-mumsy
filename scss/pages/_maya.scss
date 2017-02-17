@@ -99,3 +99,15 @@
     }
   }
 }
+.cat {
+  color: #473AAA;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  p {
+   font-family: 'Yellowtail', cursive;
+  }
+}
