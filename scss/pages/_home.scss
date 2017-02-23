@@ -1,4 +1,8 @@
 body {
+  background-color: black;
+}
+
+#wrapper {
   background-color: #321325;
 }
 
@@ -18,11 +22,6 @@ body {
     &:hover {
       color: steelblue;
     }
-  }
-  @media screen and (max-width: 524px) {
-  display: none;
-  height: 0;
-  width: 0;
   }
 }
 

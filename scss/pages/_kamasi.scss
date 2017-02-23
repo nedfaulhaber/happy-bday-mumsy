@@ -1,9 +1,9 @@
-#kamasi-wrapper {
+#k-wrapper {
   background-color: $tan;
-  height: 100vh;
+  // height: 100vh;
 }
 
-.k-sidenav {
+#k-mobile-nav {
   @include mobilenav;
   background-color: $brown;
   a {
@@ -20,15 +20,20 @@
       color: steelblue;
     }
   }
-  @media screen and (max-width: 524px) {
-  display: none;
-  height: 0;
-  width: 0;
-  }
 }
 
 .artist-header {
   margin: $a-header;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 525px) {
+    margin-top: 0;
+  }
   color: $brown;
   @include artist;
   .song {
@@ -49,10 +54,6 @@
 }
 
 .content {
-  height: auto;
-  margin: $content;
+  @include content;
   color: $brown;
-  img {
-    @include artist-img;
-  }
 }
