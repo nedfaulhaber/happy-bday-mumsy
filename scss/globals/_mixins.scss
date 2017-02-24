@@ -7,43 +7,7 @@
   }
 }
 
-@mixin artist {
-  h2 {
-    font-family: 'Sorts Mill Goudy', serif;
-    margin-bottom: .2em;
-  }
-}
 
-
-@mixin song {
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: .2em;
-  font-size: 1.75em;
-  span {
-    font-weight: 300;
-    font-size: .6em;
-    em {
-      font-style: italic;
-    }
-  }
-}
-
-@mixin artist-img {
-  height: auto;
-  width: 30vw;
-  @media screen and (max-width: 1024px) {
-    width: 40vw;
-  }
-  float: left;
-  margin-right: 1.5em;
-  @media screen and (max-width: 600px) {
-    display: flex;
-    margin: 0;
-    width: 100%;
-    float: none;
-  }
-  border-radius: 2px;
-}
 
 @mixin mobilenav {
   height: 100%;
@@ -94,6 +58,74 @@
   }
 }
 
+@mixin artist-header {
+  margin: $a-header;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 525px) {
+    margin-top: 0;
+  }
+  @include artist;
+  .song {
+    @include song;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
+}
+
+@mixin artist {
+  h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: .2em;
+  }
+}
+
+
+@mixin song {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: .2em;
+  font-size: 1.75em;
+  span {
+    font-weight: 300;
+    font-size: .6em;
+    em {
+      font-style: italic;
+    }
+  }
+}
+
+@mixin artist-img {
+  height: auto;
+  width: 30vw;
+  @media screen and (max-width: 1024px) {
+    width: 40vw;
+  }
+  float: left;
+  margin-right: 1.5em;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    margin: 0 0 2em;
+    width: 100%;
+    float: none;
+  }
+  border-radius: 2px;
+}
+
 @mixin content {
   height: auto;
   margin: $content;
@@ -105,5 +137,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  @media screen and (max-width: 435px) {
+    margin: $mobile-content;
   }
 }

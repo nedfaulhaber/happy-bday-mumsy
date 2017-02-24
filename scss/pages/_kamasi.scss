@@ -1,6 +1,5 @@
 #k-wrapper {
   background-color: $tan;
-  // height: 100vh;
 }
 
 #k-mobile-nav {
@@ -23,34 +22,8 @@
 }
 
 .artist-header {
-  margin: $a-header;
-  @media screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-  }
-  @media screen and (max-width: 525px) {
-    margin-top: 0;
-  }
+@include artist-header;
   color: $brown;
-  @include artist;
-  .song {
-    @include song;
-  }
-  .hamburger {
-    align-self: flex-start;
-    color: white;
-    margin: 1em .7em 2em;
-    font-size: 3em;
-    cursor: pointer;
-    @media screen and (min-width: 525px) {
-      display: none;
-      height: 0;
-      width: 0;
-    }
-  }
 }
 
 .content {
