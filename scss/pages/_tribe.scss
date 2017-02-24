@@ -1,0 +1,38 @@
+#t-wrapper {
+  background-color: $cornflower;
+}
+
+#t-mobile-nav {
+  @include mobilenav;
+  background-color: $smoky-black;
+  a {
+    color: $cornflower;
+  }
+}
+
+#t-nav {
+  @include nav;
+  background-color: $cornflower;
+  a {
+    color: $smoky-black;
+    &:hover {
+      color: $opera-mauve;
+    }
+  }
+}
+
+.artist-header {
+  @include artist-header;
+  color: $smoky-black;
+  #we-the-people {
+    @media screen and (max-width: 600px) {
+      text-align: center;
+      margin: 0 2em 0;
+    }
+  }
+}
+
+.content {
+  @include content;
+  color: $smoky-black;
+}
