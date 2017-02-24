@@ -14,7 +14,7 @@ body {
   }
 }
 
-.nav {
+#home-nav {
   @include nav;
   background-color: #321325;
   a {
@@ -43,6 +43,7 @@ body {
   h1 {
     margin-bottom: 2em;
     font-family: 'Unkempt', cursive;
+    text-shadow: 5px 5px 1px #250E1B;
   }
   .hamburger {
     align-self: flex-start;

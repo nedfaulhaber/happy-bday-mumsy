@@ -171,7 +171,7 @@ body {
   .sidenav a {
     color: #F3E9DC; }
 
-.nav {
+#home-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,17 +180,17 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #321325; }
-  .nav a {
+  #home-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    .nav {
+    #home-nav {
       display: none;
       height: 0;
       width: 0; } }
-  .nav a {
+  #home-nav a {
     color: #F3E9DC; }
-    .nav a:hover {
+    #home-nav a:hover {
       color: steelblue; }
 
 .header {
@@ -210,7 +210,8 @@ body {
       font-size: 1.5em; } }
   .header h1 {
     margin-bottom: 2em;
-    font-family: 'Unkempt', cursive; }
+    font-family: 'Unkempt', cursive;
+    text-shadow: 5px 5px 1px #250E1B; }
   .header .hamburger {
     align-self: flex-start;
     color: white;
