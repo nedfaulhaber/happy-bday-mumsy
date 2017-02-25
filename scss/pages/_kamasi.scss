@@ -21,12 +21,12 @@
   }
 }
 
-.artist-header {
+#k-header {
 @include artist-header;
   color: $brown;
 }
 
-.content {
+#k-content {
   @include content;
   color: $brown;
 }

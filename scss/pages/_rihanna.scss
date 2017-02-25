@@ -1,32 +1,32 @@
-#k-wrapper {
-  background-color: $tan;
+#r-wrapper {
+  background-color: $rich-black;
 }
 
-#k-mobile-nav {
+#r-mobile-nav {
   @include mobilenav;
-  background-color: $brown;
+  background-color: $byzantine;
   a {
-    color: $tan;
+    color: $rich-black;
   }
 }
 
-#k-nav {
+#r-nav {
   @include nav;
-  background-color: $tan;
+  background-color: $rich-black;
   a {
-    color: $brown;
+    color: $rackley;
     &:hover {
-      color: steelblue;
+      color: $byzantine;
     }
   }
 }
 
-.artist-header {
+#r-header {
 @include artist-header;
-  color: $brown;
+  color: $rackley;
 }
 
-.content {
+#r-content {
   @include content;
-  color: $brown;
+  color: $rackley;
 }

@@ -549,70 +549,70 @@ body {
     #k-nav a:hover {
       color: steelblue; }
 
-.artist-header {
+#k-header {
   margin: 5em 0 3em 3em;
   color: #261603; }
   @media screen and (max-width: 600px) {
-    .artist-header {
+    #k-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    .artist-header {
+    #k-header {
       margin-top: 0; } }
-  .artist-header h2 {
+  #k-header h2 {
     font-family: 'Sorts Mill Goudy', serif;
     margin-bottom: .2em; }
-  .artist-header .song {
+  #k-header .song {
     font-family: 'Raleway', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    .artist-header .song span {
+    #k-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      .artist-header .song span em {
+      #k-header .song span em {
         font-style: italic; }
-  .artist-header .hamburger {
+  #k-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      .artist-header .hamburger {
+      #k-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-.content {
+#k-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #261603; }
-  .content img {
+  #k-content img {
     height: auto;
     width: 30vw;
     float: left;
     margin-right: 1.5em;
-    border-radius: 2px; }
+    border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      .content img {
+      #k-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      .content img {
+      #k-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
   @media screen and (max-width: 600px) {
-    .content {
+    #k-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    .content {
+    #k-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #t-wrapper {
@@ -645,7 +645,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   #t-mobile-nav a {
-    color: #7392FE; }
+    color: #AC80A0; }
 
 #t-nav {
   display: flex;
@@ -669,74 +669,194 @@ body {
     #t-nav a:hover {
       color: #AC80A0; }
 
-.artist-header {
+#t-header {
   margin: 5em 0 3em 3em;
   color: #0A0509; }
   @media screen and (max-width: 600px) {
-    .artist-header {
+    #t-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    .artist-header {
+    #t-header {
       margin-top: 0; } }
-  .artist-header h2 {
+  #t-header h2 {
     font-family: 'Sorts Mill Goudy', serif;
     margin-bottom: .2em; }
-  .artist-header .song {
+  #t-header .song {
     font-family: 'Raleway', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    .artist-header .song span {
+    #t-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      .artist-header .song span em {
+      #t-header .song span em {
         font-style: italic; }
-  .artist-header .hamburger {
+  #t-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      .artist-header .hamburger {
+      #t-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
   @media screen and (max-width: 600px) {
-    .artist-header #we-the-people {
+    #t-header #we-the-people {
       text-align: center;
       margin: 0 2em 0; } }
 
-.content {
+#t-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #0A0509; }
-  .content img {
+  #t-content img {
     height: auto;
     width: 30vw;
     float: left;
     margin-right: 1.5em;
-    border-radius: 2px; }
+    border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      .content img {
+      #t-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      .content img {
+      #t-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
   @media screen and (max-width: 600px) {
-    .content {
+    #t-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    .content {
+    #t-content {
+      margin: 0 1.5em 0 1.5em; } }
+
+#r-wrapper {
+  background-color: #030726; }
+
+#r-mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: #B94399; }
+  #r-mobile-nav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Satisfy', cursive; }
+  #r-mobile-nav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  #r-mobile-nav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  #r-mobile-nav a {
+    color: #030726; }
+
+#r-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  background-color: #030726; }
+  #r-nav a {
+    font-family: 'Satisfy', cursive;
+    text-decoration: none; }
+  @media screen and (max-width: 524px) {
+    #r-nav {
+      display: none;
+      height: 0;
+      width: 0; } }
+  #r-nav a {
+    color: #5F829C; }
+    #r-nav a:hover {
+      color: #B94399; }
+
+#r-header {
+  margin: 5em 0 3em 3em;
+  color: #5F829C; }
+  @media screen and (max-width: 600px) {
+    #r-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0; } }
+  @media screen and (max-width: 525px) {
+    #r-header {
+      margin-top: 0; } }
+  #r-header h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: .2em; }
+  #r-header .song {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: .2em;
+    font-size: 1.75em; }
+    #r-header .song span {
+      font-weight: 300;
+      font-size: .6em; }
+      #r-header .song span em {
+        font-style: italic; }
+  #r-header .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer; }
+    @media screen and (min-width: 525px) {
+      #r-header .hamburger {
+        display: none;
+        height: 0;
+        width: 0; } }
+
+#r-content {
+  height: auto;
+  margin: 0 3em 0em 3em;
+  padding-bottom: 5em;
+  color: #5F829C; }
+  #r-content img {
+    height: auto;
+    width: 30vw;
+    float: left;
+    margin-right: 1.5em;
+    border-radius: 3px; }
+    @media screen and (max-width: 1024px) {
+      #r-content img {
+        width: 40vw; } }
+    @media screen and (max-width: 600px) {
+      #r-content img {
+        display: flex;
+        margin: 0 0 2em;
+        width: 100%;
+        float: none; } }
+  @media screen and (max-width: 600px) {
+    #r-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  @media screen and (max-width: 435px) {
+    #r-content {
       margin: 0 1.5em 0 1.5em; } }
 
 /*# sourceMappingURL=main.css.map */

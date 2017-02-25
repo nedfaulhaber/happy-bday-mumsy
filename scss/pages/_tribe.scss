@@ -6,7 +6,7 @@
   @include mobilenav;
   background-color: $smoky-black;
   a {
-    color: $cornflower;
+    color: $opera-mauve;
   }
 }
 
@@ -21,7 +21,7 @@
   }
 }
 
-.artist-header {
+#t-header {
   @include artist-header;
   color: $smoky-black;
   #we-the-people {
@@ -32,7 +32,7 @@
   }
 }
 
-.content {
+#t-content {
   @include content;
   color: $smoky-black;
 }
