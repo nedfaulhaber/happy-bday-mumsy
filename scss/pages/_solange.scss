@@ -1,0 +1,32 @@
+#s-wrapper {
+  background-color: $prussian-blue;
+}
+
+#s-mobile-nav {
+  @include mobilenav;
+  background-color: $byzantine;
+  a {
+    color: $rich-black;
+  }
+}
+
+#s-nav {
+  @include nav;
+  background-color: $rich-black;
+  a {
+    color: $rackley;
+    &:hover {
+      color: $byzantine;
+    }
+  }
+}
+
+#s-header {
+@include artist-header;
+  color: $rackley;
+}
+
+#s-content {
+  @include content;
+  color: $rackley;
+}
