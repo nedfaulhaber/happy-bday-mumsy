@@ -595,7 +595,7 @@ body {
     height: auto;
     width: 30vw;
     float: left;
-    margin-right: 1.5em;
+    margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
       #k-content img {
@@ -719,7 +719,7 @@ body {
     height: auto;
     width: 30vw;
     float: left;
-    margin-right: 1.5em;
+    margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
       #t-content img {
@@ -839,7 +839,7 @@ body {
     height: auto;
     width: 30vw;
     float: left;
-    margin-right: 1.5em;
+    margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
       #r-content img {
@@ -959,7 +959,7 @@ body {
     height: auto;
     width: 30vw;
     float: left;
-    margin-right: 1.5em;
+    margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
       #b-content img {
@@ -1083,7 +1083,7 @@ body {
     height: auto;
     width: 30vw;
     float: left;
-    margin-right: 1.5em;
+    margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
       #s-content img {
@@ -1203,7 +1203,7 @@ body {
     height: auto;
     width: 30vw;
     float: left;
-    margin-right: 1.5em;
+    margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
       #f-content img {
