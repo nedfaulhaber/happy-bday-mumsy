@@ -992,7 +992,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #B94399; }
+  background-color: #1F487E; }
   #s-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
@@ -1009,7 +1009,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   #s-mobile-nav a {
-    color: #030726; }
+    color: #0A0509; }
 
 #s-nav {
   display: flex;
@@ -1019,7 +1019,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #030726; }
+  background-color: #003049; }
   #s-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
@@ -1029,13 +1029,13 @@ body {
       height: 0;
       width: 0; } }
   #s-nav a {
-    color: #5F829C; }
+    color: #F37767; }
     #s-nav a:hover {
-      color: #B94399; }
+      color: #F9C22E; }
 
 #s-header {
   margin: 5em 0 3em 3em;
-  color: #5F829C; }
+  color: #F37767; }
   @media screen and (max-width: 600px) {
     #s-header {
       display: flex;
@@ -1069,12 +1069,16 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  @media screen and (max-width: 475px) {
+    #s-header #cranes-in-the-sky {
+      text-align: center;
+      margin: 0 1em 2em; } }
 
 #s-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #5F829C; }
+  color: #F37767; }
   #s-content img {
     height: auto;
     width: 30vw;

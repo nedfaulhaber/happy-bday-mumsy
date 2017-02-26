@@ -4,29 +4,35 @@
 
 #s-mobile-nav {
   @include mobilenav;
-  background-color: $byzantine;
+  background-color: $dark-cerulean;
   a {
-    color: $rich-black;
+    color: $smoky-black;
   }
 }
 
 #s-nav {
   @include nav;
-  background-color: $rich-black;
+  background-color: $prussian-blue;
   a {
-    color: $rackley;
+    color: $coral-reef;
     &:hover {
-      color: $byzantine;
+      color: #F9C22E;
     }
   }
 }
 
 #s-header {
-@include artist-header;
-  color: $rackley;
+  @include artist-header;
+  color: $coral-reef;
+  #cranes-in-the-sky {
+    @media screen and (max-width: 475px) {
+      text-align: center;
+      margin: 0 1em 2em;
+    }
+  }
 }
 
 #s-content {
   @include content;
-  color: $rackley;
+  color: $coral-reef;
 }
