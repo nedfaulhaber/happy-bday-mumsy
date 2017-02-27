@@ -30,7 +30,6 @@
   @include content;
   color: $manatee;
   #tove-lo {
-    float: right;
-    margin: 1em 0 1em 1.2em;
+    @include feat-artist;
   }
 }
