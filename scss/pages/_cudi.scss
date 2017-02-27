@@ -25,13 +25,8 @@
   @include artist-header;
   color: $queen-pink;
   #by-design {
-    @media screen and (max-width: 850px) {
-      margin-right: 2em;
-    }
-    @media screen and (max-width: 600px) {
-      text-align: center;
-      margin: 0 2em 0;
-    }
+    @include long-song;
+    line-height: 1.2em;
   }
 }
 

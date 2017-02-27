@@ -25,10 +25,7 @@
   @include artist-header;
   color: $smoky-black;
   #we-the-people {
-    @media screen and (max-width: 600px) {
-      text-align: center;
-      margin: 0 2em 0;
-    }
+    @include long-song;
   }
 }
 

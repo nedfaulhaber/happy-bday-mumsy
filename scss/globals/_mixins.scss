@@ -109,6 +109,15 @@
   }
 }
 
+@mixin long-song {
+  @media screen and (max-width: 850px) {
+    margin-right: 2em;
+  }
+  @media screen and (max-width: 600px) {
+    text-align: center;
+    margin: 0 2em 0;
+  }
+}
 @mixin artist-img {
   height: auto;
   width: 30vw;
