@@ -1,8 +1,8 @@
-#d-wrapper {
+#kl-wrapper {
   background-color: $dark-green;
 }
 
-#d-mobile-nav {
+#kl-mobile-nav {
   @include mobilenav;
   background-color: $copper;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#d-nav {
+#kl-nav {
   @include nav;
   background-color: $dark-green;
   a {
@@ -21,19 +21,20 @@
   }
 }
 
-#d-header {
+#kl-header {
   @include artist-header;
   color: $green-sheen;
-  #zauberflote {
-    @include long-song;
-    line-height: 1.2em;
-  }
+  // #zauberflote {
+  //   @include long-song;
+  //   line-height: 1.2em;
+  // }
 }
 
-#d-content {
+#kl-content {
   @include content;
   color: $green-sheen;
-  #rhorer {
+  #pharrell {
     @include feat-artist;
+    width: 20vw;
   }
 }
