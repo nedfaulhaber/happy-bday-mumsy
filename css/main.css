@@ -1229,7 +1229,7 @@ body {
     height: auto;
     width: 25vw;
     float: right;
-    margin: 1em 0 1em 1.2em; }
+    margin: .5em 0 1em 1.2em; }
     @media screen and (max-width: 600px) {
       #f-content #tove-lo {
         margin-left: 0; } }
@@ -1239,7 +1239,7 @@ body {
     @media screen and (max-width: 600px) {
       #f-content #tove-lo {
         display: flex;
-        margin: 0 0 2em;
+        margin: 2em 0 2em;
         width: 100%;
         float: none; } }
 
@@ -1375,7 +1375,7 @@ body {
     height: auto;
     width: 25vw;
     float: right;
-    margin: 1em 0 1em 1.2em; }
+    margin: .5em 0 1em 1.2em; }
     @media screen and (max-width: 600px) {
       #c-content #andre {
         margin-left: 0; } }
@@ -1385,7 +1385,7 @@ body {
     @media screen and (max-width: 600px) {
       #c-content #andre {
         display: flex;
-        margin: 0 0 2em;
+        margin: 2em 0 2em;
         width: 100%;
         float: none; } }
 
@@ -1652,7 +1652,7 @@ body {
     height: auto;
     width: 25vw;
     float: right;
-    margin: 1em 0 1em 1.2em; }
+    margin: .5em 0 1em 1.2em; }
     @media screen and (max-width: 600px) {
       #d-content #rhorer {
         margin-left: 0; } }
@@ -1662,7 +1662,7 @@ body {
     @media screen and (max-width: 600px) {
       #d-content #rhorer {
         display: flex;
-        margin: 0 0 2em;
+        margin: 2em 0 2em;
         width: 100%;
         float: none; } }
 
@@ -1789,7 +1789,7 @@ body {
     height: auto;
     width: 25vw;
     float: right;
-    margin: 1em 0 1em 1.2em;
+    margin: .5em 0 1em 1.2em;
     width: 20vw; }
     @media screen and (max-width: 600px) {
       #kl-content #pharrell {
@@ -1800,7 +1800,7 @@ body {
     @media screen and (max-width: 600px) {
       #kl-content #pharrell {
         display: flex;
-        margin: 0 0 2em;
+        margin: 2em 0 2em;
         width: 100%;
         float: none; } }
 
