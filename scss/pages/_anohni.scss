@@ -1,0 +1,33 @@
+#a-wrapper {
+  background-color: #32213A;
+}
+
+#a-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#a-nav {
+  @include nav;
+  background-color: $registration;
+  a {
+    color: $spanish-gray;
+    &:hover {
+      color: $med-blue;
+    }
+  }
+}
+
+#a-header {
+@include artist-header;
+  color: #EFF1ED;
+}
+
+#a-content {
+  @include content;
+  color: #EFF1ED;
+
+}
