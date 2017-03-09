@@ -1,38 +1,34 @@
 #kl-wrapper {
-  background-color: $dark-green;
+  background-color: $antique-ruby;
 }
 
 #kl-mobile-nav {
   @include mobilenav;
-  background-color: $copper;
+  background-color: black;
   a {
-    color: $dark-green;
+    color: $antique-ruby;
   }
 }
 
 #kl-nav {
   @include nav;
-  background-color: $dark-green;
+  background-color: $antique-ruby;
   a {
-    color: $green-sheen;
+    color: $alabaster;
     &:hover {
-      color: $copper;
+      color: $japanese-indigo;
     }
   }
 }
 
 #kl-header {
   @include artist-header;
-  color: $green-sheen;
-  // #zauberflote {
-  //   @include long-song;
-  //   line-height: 1.2em;
-  // }
+  color: $alabaster;
 }
 
 #kl-content {
   @include content;
-  color: $green-sheen;
+  color: $alabaster;
   #pharrell {
     @include feat-artist;
     width: 20vw;
