@@ -1,0 +1,45 @@
+#ch-wrapper {
+  background-color: $liberty;
+}
+
+#ch-mobile-nav {
+  @include mobilenav;
+  background-color: $eerie-black;
+  a {
+    color: $liberty;
+  }
+}
+
+#ch-nav {
+  @include nav;
+  background-color: $liberty;
+  a {
+    color: white;
+    &:hover {
+      color: $copper;
+    }
+  }
+}
+
+#ch-header {
+  @include artist-header;
+  color: white;
+  #noprob {
+    @include long-song;
+    line-height: 1.2em;
+  }
+}
+
+#ch-content {
+  @include content;
+  color: white;
+  #two-chainz {
+    @include feat-artist;
+  }
+  #lil-wayne {
+    @include feat-artist;
+    float: left;
+    margin: .5em 1.2em 1em 0em;
+
+  }
+}
