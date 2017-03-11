@@ -1,29 +1,29 @@
 #w-wrapper {
-  background-color: $dark-lavender;
+  background-color: $smoky-black;
 }
 
 #w-mobile-nav {
   @include mobilenav;
-  background-color: $old-burgundy;
+  background-color: $dark-pastel-blue;
   a {
-    color: $princeton-orange;
+    color: $smoky-black;
   }
 }
 
 #w-nav {
   @include nav;
-  background-color: $dark-lavender;
+  background-color: $smoky-black;
   a {
-    color: $queen-pink;
+    color: $dark-pastel-blue;
     &:hover {
-      color: $princeton-orange;
+      color: $antique-brass;
     }
   }
 }
 
 #w-header {
   @include artist-header;
-  color: $queen-pink;
+  color: $dark-pastel-blue;
   #feel-it {
     @include long-song;
     line-height: 1.2em;
@@ -32,7 +32,7 @@
 
 #w-content {
   @include content;
-  color: $queen-pink;
+  color: $dark-pastel-blue;
   #daft-punk {
     @include feat-artist;
   }
