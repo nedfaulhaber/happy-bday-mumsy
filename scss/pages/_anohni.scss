@@ -1,33 +1,33 @@
 #a-wrapper {
-  background-color: #32213A;
+  background-color: $dark-purple;
 }
 
 #a-mobile-nav {
   @include mobilenav;
-  background-color: $med-blue;
+  background-color: $licorice;
   a {
-    color: $pale-taupe;
+    color: $android-green;
   }
 }
 
 #a-nav {
   @include nav;
-  background-color: $registration;
+  background-color: $dark-purple;
   a {
-    color: $spanish-gray;
+    color: $gainsboro;
     &:hover {
-      color: $med-blue;
+      color: $android-green;
     }
   }
 }
 
 #a-header {
 @include artist-header;
-  color: #EFF1ED;
+  color: $gainsboro;
 }
 
 #a-content {
   @include content;
-  color: #EFF1ED;
+  color: $gainsboro;
 
 }
