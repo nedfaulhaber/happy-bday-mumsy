@@ -1,0 +1,33 @@
+#f-wrapper {
+  background-color: $charleston-green;
+}
+
+#f-mobile-nav {
+  @include mobilenav;
+  background-color: $light-grey;
+  a {
+    color: $charleston-green;
+  }
+}
+
+#f-nav {
+  @include nav;
+  background-color: $charleston-green;
+  a {
+    color: $hookers-green;
+    &:hover {
+      color: $anti-flash;
+    }
+  }
+}
+
+#f-header {
+@include artist-header;
+  color: $hookers-green;
+}
+
+#f-content {
+  @include content;
+  color: $hookers-green;
+
+}
