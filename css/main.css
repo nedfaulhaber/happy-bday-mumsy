@@ -2209,4 +2209,150 @@ body {
         width: 100%;
         float: none; } }
 
+#w-wrapper {
+  background-color: #6E448E; }
+
+#w-mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: #442B48; }
+  #w-mobile-nav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Satisfy', cursive; }
+  #w-mobile-nav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  #w-mobile-nav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  #w-mobile-nav a {
+    color: #FB8B24; }
+
+#w-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  background-color: #6E448E; }
+  #w-nav a {
+    font-family: 'Satisfy', cursive;
+    text-decoration: none; }
+  @media screen and (max-width: 524px) {
+    #w-nav {
+      display: none;
+      height: 0;
+      width: 0; } }
+  #w-nav a {
+    color: #EACBD2; }
+    #w-nav a:hover {
+      color: #FB8B24; }
+
+#w-header {
+  margin: 5em 0 3em 3em;
+  color: #EACBD2; }
+  @media screen and (max-width: 600px) {
+    #w-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0; } }
+  @media screen and (max-width: 525px) {
+    #w-header {
+      margin-top: 0; } }
+  #w-header h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: .2em; }
+  #w-header .song {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: .2em;
+    font-size: 1.75em; }
+    #w-header .song span {
+      font-weight: 300;
+      font-size: .6em; }
+      #w-header .song span em {
+        font-style: italic; }
+  #w-header .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer; }
+    @media screen and (min-width: 525px) {
+      #w-header .hamburger {
+        display: none;
+        height: 0;
+        width: 0; } }
+  #w-header #feel-it {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #w-header #feel-it {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #w-header #feel-it {
+        text-align: center;
+        margin: 0 2em 0; } }
+
+#w-content {
+  height: auto;
+  margin: 0 3em 0em 3em;
+  padding-bottom: 5em;
+  color: #EACBD2; }
+  #w-content img {
+    height: auto;
+    width: 30vw;
+    float: left;
+    margin: 0 1.5em .5em 0;
+    border-radius: 3px; }
+    @media screen and (max-width: 1024px) {
+      #w-content img {
+        width: 40vw; } }
+    @media screen and (max-width: 600px) {
+      #w-content img {
+        display: flex;
+        margin: 0 0 2em;
+        width: 100%;
+        float: none; } }
+  @media screen and (max-width: 600px) {
+    #w-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  @media screen and (max-width: 435px) {
+    #w-content {
+      margin: 0 1.5em 0 1.5em; } }
+  #w-content #daft-punk {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em; }
+    @media screen and (max-width: 600px) {
+      #w-content #daft-punk {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #w-content #daft-punk {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #w-content #daft-punk {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+
 /*# sourceMappingURL=main.css.map */

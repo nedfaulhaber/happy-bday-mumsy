@@ -1,0 +1,39 @@
+#w-wrapper {
+  background-color: $dark-lavender;
+}
+
+#w-mobile-nav {
+  @include mobilenav;
+  background-color: $old-burgundy;
+  a {
+    color: $princeton-orange;
+  }
+}
+
+#w-nav {
+  @include nav;
+  background-color: $dark-lavender;
+  a {
+    color: $queen-pink;
+    &:hover {
+      color: $princeton-orange;
+    }
+  }
+}
+
+#w-header {
+  @include artist-header;
+  color: $queen-pink;
+  #feel-it {
+    @include long-song;
+    line-height: 1.2em;
+  }
+}
+
+#w-content {
+  @include content;
+  color: $queen-pink;
+  #daft-punk {
+    @include feat-artist;
+  }
+}
