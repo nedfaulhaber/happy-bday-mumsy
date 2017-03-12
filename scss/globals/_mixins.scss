@@ -160,6 +160,9 @@
   img {
     @include artist-img;
   }
+  em {
+    font-style: italic;
+  }
   @media screen and (max-width: 600px) {
     display: flex;
     flex-direction: column;

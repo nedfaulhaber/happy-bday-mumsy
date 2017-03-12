@@ -606,6 +606,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #k-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #k-content {
       display: flex;
@@ -733,6 +735,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #t-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #t-content {
       display: flex;
@@ -853,6 +857,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #r-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #r-content {
       display: flex;
@@ -973,6 +979,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #b-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #b-content {
       display: flex;
@@ -1097,6 +1105,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #s-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #s-content {
       display: flex;
@@ -1217,6 +1227,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #f-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #f-content {
       display: flex;
@@ -1363,6 +1375,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #c-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #c-content {
       display: flex;
@@ -1511,6 +1525,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #sn-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #sn-content {
       display: flex;
@@ -1640,6 +1656,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #d-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #d-content {
       display: flex;
@@ -1777,6 +1795,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #kl-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #kl-content {
       display: flex;
@@ -1915,6 +1935,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #a-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #a-content {
       display: flex;
@@ -2035,6 +2057,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #f-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #f-content {
       display: flex;
@@ -2164,6 +2188,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #ch-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #ch-content {
       display: flex;
@@ -2329,6 +2355,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #w-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #w-content {
       display: flex;
@@ -2466,6 +2494,8 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #j-content em {
+    font-style: italic; }
   @media screen and (max-width: 600px) {
     #j-content {
       display: flex;
