@@ -139,9 +139,6 @@ p {
 body {
   background-color: black; }
 
-.wrapper {
-  height: 100vh; }
-
 #wrapper {
   background-color: #321325; }
 
@@ -621,8 +618,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #t-wrapper {
-  background-color: #7392FE;
-  height: 100vh; }
+  background-color: #7392FE; }
 
 #t-mobile-nav {
   height: 100%;
