@@ -12,7 +12,7 @@
 
 #t-nav {
   @include nav;
-  background-color: tomato;
+  background-color: $cornflower;
   a {
     color: $smoky-black;
     &:hover {
