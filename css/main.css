@@ -2158,15 +2158,6 @@ body {
         display: none;
         height: 0;
         width: 0; } }
-  #ch-header #noprob {
-    line-height: 1.2em; }
-    @media screen and (max-width: 850px) {
-      #ch-header #noprob {
-        margin-right: 2em; } }
-    @media screen and (max-width: 600px) {
-      #ch-header #noprob {
-        text-align: center;
-        margin: 0 2em 0; } }
 
 #ch-content {
   height: auto;
@@ -2198,42 +2189,6 @@ body {
   @media screen and (max-width: 435px) {
     #ch-content {
       margin: 0 1.5em 0 1.5em; } }
-  #ch-content #two-chainz {
-    height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 1em 1.2em; }
-    @media screen and (max-width: 600px) {
-      #ch-content #two-chainz {
-        margin-left: 0; } }
-    @media screen and (max-width: 1024px) {
-      #ch-content #two-chainz {
-        width: 35vw; } }
-    @media screen and (max-width: 600px) {
-      #ch-content #two-chainz {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 100%;
-        float: none; } }
-  #ch-content #lil-wayne {
-    height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 1em 1.2em;
-    float: left;
-    margin: .5em 1.2em 1em 0em; }
-    @media screen and (max-width: 600px) {
-      #ch-content #lil-wayne {
-        margin-left: 0; } }
-    @media screen and (max-width: 1024px) {
-      #ch-content #lil-wayne {
-        width: 35vw; } }
-    @media screen and (max-width: 600px) {
-      #ch-content #lil-wayne {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 100%;
-        float: none; } }
 
 #w-wrapper {
   background-color: #0A0509; }
