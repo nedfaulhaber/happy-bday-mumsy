@@ -343,14 +343,14 @@ body {
       @media screen and (max-width: 1029px) {
         .gallery .row #stetsonneufeld p {
           padding-right: .4em; } }
-    .gallery .row #kendrick {
-      background-image: url("../img/kendrick.png");
+    .gallery .row #beyonce {
+      background-image: url("../img/bey.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 415px) {
-        .gallery .row #kendrick {
+        .gallery .row #beyonce {
           background-position: top; }
-          .gallery .row #kendrick a {
+          .gallery .row #beyonce a {
             text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
     .gallery .row #damrau {
       background-image: url("../img/damrau.png");
