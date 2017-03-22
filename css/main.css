@@ -1684,10 +1684,10 @@ body {
         width: 100%;
         float: none; } }
 
-#kl-wrapper {
+#bey-wrapper {
   background-color: #832232; }
 
-#kl-mobile-nav {
+#bey-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1697,26 +1697,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: black; }
-  #kl-mobile-nav a {
+  background-color: #8D9DAE; }
+  #bey-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  #kl-mobile-nav .sidenav .closebtn {
+  #bey-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #kl-mobile-nav .closebtn {
+  #bey-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #kl-mobile-nav a {
-    color: #832232; }
+  #bey-mobile-nav a {
+    color: #FFF0D6; }
 
-#kl-nav {
+#bey-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1725,102 +1725,102 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #832232; }
-  #kl-nav a {
+  #bey-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #kl-nav {
+    #bey-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #kl-nav a {
-    color: #EDECE1; }
-    #kl-nav a:hover {
-      color: #25374A; }
+  #bey-nav a {
+    color: #FFF0D6; }
+    #bey-nav a:hover {
+      color: #8D9DAE; }
 
-#kl-header {
+#bey-header {
   margin: 5em 0 3em 3em;
-  color: #EDECE1; }
+  color: #FFF0D6; }
   @media screen and (max-width: 600px) {
-    #kl-header {
+    #bey-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #kl-header {
+    #bey-header {
       margin-top: 0; } }
-  #kl-header h2 {
+  #bey-header h2 {
     font-family: 'Sorts Mill Goudy', serif;
     margin-bottom: .2em; }
-  #kl-header .song {
+  #bey-header .song {
     font-family: 'Raleway', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #kl-header .song span {
+    #bey-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #kl-header .song span em {
+      #bey-header .song span em {
         font-style: italic; }
-  #kl-header .hamburger {
+  #bey-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #kl-header .hamburger {
+      #bey-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
+  @media screen and (max-width: 850px) {
+    #bey-header #freedom {
+      margin-right: 2em; } }
+  @media screen and (max-width: 600px) {
+    #bey-header #freedom {
+      text-align: center;
+      margin: 0 2em 0; } }
 
-#kl-content {
+#bey-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EDECE1; }
-  #kl-content img {
+  color: #FFF0D6; }
+  #bey-content img {
     height: auto;
     width: 30vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #kl-content img {
+      #bey-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #kl-content img {
+      #bey-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #kl-content em {
+  #bey-content em {
     font-style: italic; }
   @media screen and (max-width: 600px) {
-    #kl-content {
+    #bey-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #kl-content {
+    #bey-content {
       margin: 0 1.5em 0 1.5em; } }
-  #kl-content #pharrell {
-    height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 1em 1.2em;
-    width: 20vw; }
-    @media screen and (max-width: 600px) {
-      #kl-content #pharrell {
-        margin-left: 0; } }
+  #bey-content #bey-ken {
+    width: 40vw; }
     @media screen and (max-width: 1024px) {
-      #kl-content #pharrell {
-        width: 35vw; } }
+      #bey-content #bey-ken {
+        width: 50vw; } }
     @media screen and (max-width: 600px) {
-      #kl-content #pharrell {
+      #bey-content #bey-ken {
         display: flex;
-        margin: 2em 0 2em;
+        margin: 0 0 2em;
         width: 100%;
         float: none; } }
 
