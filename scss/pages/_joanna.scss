@@ -29,4 +29,7 @@
 #j-content {
   @include content;
   color: $deer;
+  .lyrics {
+    color: $tuscan;
+  }
 }

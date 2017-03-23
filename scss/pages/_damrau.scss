@@ -33,6 +33,14 @@
 #d-content {
   @include content;
   color: $green-sheen;
+  .info-link {
+    a {
+    color: $copper;
+    }
+  }
+  .lyrics {
+    color: $copper;
+  }
   #rhorer {
     @include feat-artist;
   }

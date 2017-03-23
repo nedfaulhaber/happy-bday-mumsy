@@ -33,6 +33,9 @@
 #c-content {
   @include content;
   color: $queen-pink;
+  .lyrics {
+    color: $princeton-orange;
+  }
   #andre {
     @include feat-artist;
   }

@@ -33,6 +33,14 @@
 #w-content {
   @include content;
   color: $dark-pastel-blue;
+  .info-link {
+    a {
+    color: $antique-brass;
+    }
+  }
+  .lyrics {
+    color: $antique-brass;
+  }
   #daft-punk {
     @include feat-artist;
   }

@@ -1,5 +1,5 @@
 #s-wrapper {
-  background-color: $prussian-blue; 
+  background-color: $prussian-blue;
 }
 
 #s-mobile-nav {
@@ -16,7 +16,7 @@
   a {
     color: $coral-reef;
     &:hover {
-      color: #F9C22E;
+      color: $saffron;
     }
   }
 }
@@ -35,4 +35,12 @@
 #s-content {
   @include content;
   color: $coral-reef;
+  .info-link {
+    a {
+    color: $saffron;
+    }
+  }
+  .lyrics {
+    color: $saffron;
+  }
 }

@@ -1,8 +1,8 @@
-#f-wrapper {
+#fo-wrapper {
   background-color: $charleston-green;
 }
 
-#f-mobile-nav {
+#fo-mobile-nav {
   @include mobilenav;
   background-color: $light-grey;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#f-nav {
+#fo-nav {
   @include nav;
   background-color: $charleston-green;
   a {
@@ -21,13 +21,16 @@
   }
 }
 
-#f-header {
+#fo-header {
 @include artist-header;
   color: $hookers-green;
 }
 
-#f-content {
+#fo-content {
   @include content;
   color: $hookers-green;
+  .lyrics {
+    color: $anti-flash;
+  }
 
 }

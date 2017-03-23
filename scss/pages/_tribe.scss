@@ -32,4 +32,12 @@
 #t-content {
   @include content;
   color: $smoky-black;
+  .info-link {
+    a {
+    color: $cg-red;
+    }
+  }
+  .lyrics {
+    color: $cg-red;
+  }
 }

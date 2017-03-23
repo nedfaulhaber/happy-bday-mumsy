@@ -608,6 +608,18 @@ body {
         float: none; } }
   #k-content em {
     font-style: italic; }
+  #k-content .info-link a {
+    text-decoration: none; }
+  #k-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #k-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #k-content {
       display: flex;
@@ -737,6 +749,18 @@ body {
         float: none; } }
   #t-content em {
     font-style: italic; }
+  #t-content .info-link a {
+    text-decoration: none; }
+  #t-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #t-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #t-content {
       display: flex;
@@ -745,6 +769,10 @@ body {
   @media screen and (max-width: 435px) {
     #t-content {
       margin: 0 1.5em 0 1.5em; } }
+  #t-content .info-link a {
+    color: #DF3538; }
+  #t-content .lyrics {
+    color: #DF3538; }
 
 #r-wrapper {
   background-color: #030726; }
@@ -859,6 +887,18 @@ body {
         float: none; } }
   #r-content em {
     font-style: italic; }
+  #r-content .info-link a {
+    text-decoration: none; }
+  #r-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #r-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #r-content {
       display: flex;
@@ -867,6 +907,8 @@ body {
   @media screen and (max-width: 435px) {
     #r-content {
       margin: 0 1.5em 0 1.5em; } }
+  #r-content .lyrics {
+    color: #B94399; }
 
 #b-wrapper {
   background-color: #010101; }
@@ -981,6 +1023,18 @@ body {
         float: none; } }
   #b-content em {
     font-style: italic; }
+  #b-content .info-link a {
+    text-decoration: none; }
+  #b-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #b-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #b-content {
       display: flex;
@@ -989,6 +1043,10 @@ body {
   @media screen and (max-width: 435px) {
     #b-content {
       margin: 0 1.5em 0 1.5em; } }
+  #b-content .info-link a {
+    color: #0200C2; }
+  #b-content .lyrics {
+    color: #0200C2; }
 
 #s-wrapper {
   background-color: #003049; }
@@ -1107,6 +1165,18 @@ body {
         float: none; } }
   #s-content em {
     font-style: italic; }
+  #s-content .info-link a {
+    text-decoration: none; }
+  #s-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #s-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #s-content {
       display: flex;
@@ -1115,9 +1185,13 @@ body {
   @media screen and (max-width: 435px) {
     #s-content {
       margin: 0 1.5em 0 1.5em; } }
+  #s-content .info-link a {
+    color: #F9C22E; }
+  #s-content .lyrics {
+    color: #F9C22E; }
 
 #f-wrapper {
-  background-color: #63372C; }
+  background-color: #2D232E; }
 
 #f-mobile-nav {
   height: 100%;
@@ -1129,7 +1203,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #2D232E; }
+  background-color: #63372C; }
   #f-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
@@ -1156,7 +1230,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #63372C; }
+  background-color: #2D232E; }
   #f-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
@@ -1229,6 +1303,18 @@ body {
         float: none; } }
   #f-content em {
     font-style: italic; }
+  #f-content .info-link a {
+    text-decoration: none; }
+  #f-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #f-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #f-content {
       display: flex;
@@ -1237,6 +1323,8 @@ body {
   @media screen and (max-width: 435px) {
     #f-content {
       margin: 0 1.5em 0 1.5em; } }
+  #f-content .lyrics {
+    color: #F04E56; }
   #f-content #tove-lo {
     height: auto;
     width: 25vw;
@@ -1377,6 +1465,18 @@ body {
         float: none; } }
   #c-content em {
     font-style: italic; }
+  #c-content .info-link a {
+    text-decoration: none; }
+  #c-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #c-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #c-content {
       display: flex;
@@ -1385,6 +1485,8 @@ body {
   @media screen and (max-width: 435px) {
     #c-content {
       margin: 0 1.5em 0 1.5em; } }
+  #c-content .lyrics {
+    color: #FB8B24; }
   #c-content #andre {
     height: auto;
     width: 25vw;
@@ -1527,6 +1629,18 @@ body {
         float: none; } }
   #sn-content em {
     font-style: italic; }
+  #sn-content .info-link a {
+    text-decoration: none; }
+  #sn-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #sn-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #sn-content {
       display: flex;
@@ -1535,6 +1649,8 @@ body {
   @media screen and (max-width: 435px) {
     #sn-content {
       margin: 0 1.5em 0 1.5em; } }
+  #sn-content .lyrics {
+    color: #F1DABF; }
 
 #d-wrapper {
   background-color: #042A2B; }
@@ -1658,6 +1774,18 @@ body {
         float: none; } }
   #d-content em {
     font-style: italic; }
+  #d-content .info-link a {
+    text-decoration: none; }
+  #d-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #d-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #d-content {
       display: flex;
@@ -1666,6 +1794,10 @@ body {
   @media screen and (max-width: 435px) {
     #d-content {
       margin: 0 1.5em 0 1.5em; } }
+  #d-content .info-link a {
+    color: #BF7A2E; }
+  #d-content .lyrics {
+    color: #BF7A2E; }
   #d-content #rhorer {
     height: auto;
     width: 25vw;
@@ -1804,6 +1936,18 @@ body {
         float: none; } }
   #bey-content em {
     font-style: italic; }
+  #bey-content .info-link a {
+    text-decoration: none; }
+  #bey-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #bey-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #bey-content {
       display: flex;
@@ -1812,6 +1956,10 @@ body {
   @media screen and (max-width: 435px) {
     #bey-content {
       margin: 0 1.5em 0 1.5em; } }
+  #bey-content .info-link a {
+    color: #BFDBF7; }
+  #bey-content .lyrics {
+    color: #BFDBF7; }
   #bey-content #bey-ken {
     width: 40vw; }
     @media screen and (max-width: 1024px) {
@@ -1937,6 +2085,18 @@ body {
         float: none; } }
   #a-content em {
     font-style: italic; }
+  #a-content .info-link a {
+    text-decoration: none; }
+  #a-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #a-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #a-content {
       display: flex;
@@ -1945,11 +2105,15 @@ body {
   @media screen and (max-width: 435px) {
     #a-content {
       margin: 0 1.5em 0 1.5em; } }
+  #a-content .info-link a {
+    color: #95C137; }
+  #a-content .lyrics {
+    color: #95C137; }
 
-#f-wrapper {
+#fo-wrapper {
   background-color: #2A2B2A; }
 
-#f-mobile-nav {
+#fo-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1960,25 +2124,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #D4D2D5; }
-  #f-mobile-nav a {
+  #fo-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  #f-mobile-nav .sidenav .closebtn {
+  #fo-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #f-mobile-nav .closebtn {
+  #fo-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #f-mobile-nav a {
+  #fo-mobile-nav a {
     color: #2A2B2A; }
 
-#f-nav {
+#fo-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1987,86 +2151,100 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #2A2B2A; }
-  #f-nav a {
+  #fo-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #f-nav {
+    #fo-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #f-nav a {
+  #fo-nav a {
     color: #4C7D5E; }
-    #f-nav a:hover {
+    #fo-nav a:hover {
       color: #F2F2F2; }
 
-#f-header {
+#fo-header {
   margin: 5em 0 3em 3em;
   color: #4C7D5E; }
   @media screen and (max-width: 600px) {
-    #f-header {
+    #fo-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #f-header {
+    #fo-header {
       margin-top: 0; } }
-  #f-header h2 {
+  #fo-header h2 {
     font-family: 'Sorts Mill Goudy', serif;
     margin-bottom: .2em; }
-  #f-header .song {
+  #fo-header .song {
     font-family: 'Raleway', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #f-header .song span {
+    #fo-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #f-header .song span em {
+      #fo-header .song span em {
         font-style: italic; }
-  #f-header .hamburger {
+  #fo-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #f-header .hamburger {
+      #fo-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#f-content {
+#fo-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #4C7D5E; }
-  #f-content img {
+  #fo-content img {
     height: auto;
     width: 30vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #f-content img {
+      #fo-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #f-content img {
+      #fo-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #f-content em {
+  #fo-content em {
     font-style: italic; }
+  #fo-content .info-link a {
+    text-decoration: none; }
+  #fo-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #fo-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
-    #f-content {
+    #fo-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #f-content {
+    #fo-content {
       margin: 0 1.5em 0 1.5em; } }
+  #fo-content .lyrics {
+    color: #F2F2F2; }
 
 #ch-wrapper {
   background-color: #4357AD; }
@@ -2120,7 +2298,7 @@ body {
   #ch-nav a {
     color: white; }
     #ch-nav a:hover {
-      color: white; }
+      color: #D1345B; }
 
 #ch-header {
   margin: 5em 0 3em 3em;
@@ -2181,6 +2359,18 @@ body {
         float: none; } }
   #ch-content em {
     font-style: italic; }
+  #ch-content .info-link a {
+    text-decoration: none; }
+  #ch-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #ch-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #ch-content {
       display: flex;
@@ -2189,6 +2379,10 @@ body {
   @media screen and (max-width: 435px) {
     #ch-content {
       margin: 0 1.5em 0 1.5em; } }
+  #ch-content .info-link a {
+    color: #D1345B; }
+  #ch-content .lyrics {
+    color: #D1345B; }
 
 #w-wrapper {
   background-color: #0A0509; }
@@ -2312,6 +2506,18 @@ body {
         float: none; } }
   #w-content em {
     font-style: italic; }
+  #w-content .info-link a {
+    text-decoration: none; }
+  #w-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #w-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #w-content {
       display: flex;
@@ -2320,6 +2526,10 @@ body {
   @media screen and (max-width: 435px) {
     #w-content {
       margin: 0 1.5em 0 1.5em; } }
+  #w-content .info-link a {
+    color: #D69F7E; }
+  #w-content .lyrics {
+    color: #D69F7E; }
   #w-content #daft-punk {
     height: auto;
     width: 25vw;
@@ -2451,6 +2661,18 @@ body {
         float: none; } }
   #j-content em {
     font-style: italic; }
+  #j-content .info-link a {
+    text-decoration: none; }
+  #j-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em; }
+    #j-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
   @media screen and (max-width: 600px) {
     #j-content {
       display: flex;
@@ -2459,5 +2681,7 @@ body {
   @media screen and (max-width: 435px) {
     #j-content {
       margin: 0 1.5em 0 1.5em; } }
+  #j-content .lyrics {
+    color: #EED4A2; }
 
 /*# sourceMappingURL=main.css.map */

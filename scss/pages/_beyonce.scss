@@ -32,6 +32,14 @@
 #bey-content {
   @include content;
   color: $papaya-whip;
+  .info-link {
+    a {
+    color: #BFDBF7;
+    }
+  }
+  .lyrics {
+    color: #BFDBF7;
+  }
   #bey-ken {
     width: 40vw;
     @media screen and (max-width: 1024px) {

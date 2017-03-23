@@ -29,4 +29,12 @@
 #b-content {
   @include content;
   color: $spanish-gray;
+  .info-link {
+    a {
+    color: $med-blue;
+    }
+  }
+  .lyrics {
+    color: $med-blue;
+  }
 }

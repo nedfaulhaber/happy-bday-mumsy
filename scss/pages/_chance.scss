@@ -16,7 +16,7 @@
   a {
     color: white;
     &:hover {
-      color: white;
+      color: $cherry;
     }
   }
 }
@@ -29,4 +29,12 @@
 #ch-content {
   @include content;
   color: white;
+  .info-link {
+    a {
+    color: $cherry;
+    }
+  }
+  .lyrics {
+    color: $cherry;
+  }
 }

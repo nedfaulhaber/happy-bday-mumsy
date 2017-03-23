@@ -38,4 +38,7 @@
 #sn-content {
   @include content;
   color: $smoky-topaz;
+  .lyrics {
+    color: $dutch-white;
+  }
 }

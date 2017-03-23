@@ -29,5 +29,13 @@
 #a-content {
   @include content;
   color: $gainsboro;
+  .info-link {
+    a {
+    color: $android-green;
+    }
+  }
+  .lyrics {
+    color: $android-green;
+  }
 
 }

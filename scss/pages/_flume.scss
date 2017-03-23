@@ -1,10 +1,10 @@
 #f-wrapper {
-  background-color: $van-dyke-brown;
+  background-color: $dark-purple;
 }
 
 #f-mobile-nav {
   @include mobilenav;
-  background-color: $dark-purple;
+  background-color: $van-dyke-brown;
   a {
     color: $carmine-pink;
   }
@@ -12,7 +12,7 @@
 
 #f-nav {
   @include nav;
-  background-color: $van-dyke-brown;
+  background-color: $dark-purple;
   a {
     color: $manatee;
     &:hover {
@@ -29,6 +29,9 @@
 #f-content {
   @include content;
   color: $manatee;
+  .lyrics {
+    color: $carmine-pink;
+  }
   #tove-lo {
     @include feat-artist;
   }

@@ -29,4 +29,7 @@
 #r-content {
   @include content;
   color: $rackley;
+  .lyrics {
+    color: $byzantine;
+  }
 }
