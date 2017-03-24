@@ -30,6 +30,11 @@
   @include content;
   color: $rackley;
   .lyrics {
-    color: $byzantine;
+    a {
+      color: $byzantine;
+      &:hover {
+        color: #C8BFC7;
+      }
+    }
   }
 }

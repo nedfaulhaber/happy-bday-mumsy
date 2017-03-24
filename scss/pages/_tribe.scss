@@ -35,9 +35,17 @@
   .info-link {
     a {
     color: $cg-red;
+      &:hover {
+        color: $misty-moss;
+      }
     }
   }
   .lyrics {
-    color: $cg-red;
+    a {
+      color: $cg-red;
+      &:hover {
+        color: $misty-moss;
+      }
+    }
   }
 }

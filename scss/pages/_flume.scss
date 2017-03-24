@@ -30,7 +30,12 @@
   @include content;
   color: $manatee;
   .lyrics {
+    a {
     color: $carmine-pink;
+      &:hover {
+        color: $van-dyke-brown;
+      }
+    }
   }
   #tove-lo {
     @include feat-artist;

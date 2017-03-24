@@ -38,9 +38,17 @@
   .info-link {
     a {
     color: $saffron;
+      &:hover {
+        color: $dark-cerulean;
+      }
     }
   }
   .lyrics {
+    a {
     color: $saffron;
+      &:hover {
+        color: $dark-cerulean
+      }
+    }
   }
 }

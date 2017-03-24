@@ -36,10 +36,18 @@
   .info-link {
     a {
     color: $antique-brass;
+      &:hover {
+        color: $isabelline;
+      }
     }
   }
   .lyrics {
-    color: $antique-brass;
+    a {
+      color: $antique-brass;
+      &:hover {
+        color: $isabelline;
+      }
+    }
   }
   #daft-punk {
     @include feat-artist;

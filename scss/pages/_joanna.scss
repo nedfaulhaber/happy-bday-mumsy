@@ -30,6 +30,11 @@
   @include content;
   color: $deer;
   .lyrics {
-    color: $tuscan;
+    a {
+      color: $tuscan;
+      &:hover {
+        color: $seal-brown;
+      }
+    }  
   }
 }

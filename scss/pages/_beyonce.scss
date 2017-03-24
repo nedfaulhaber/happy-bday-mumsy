@@ -41,10 +41,12 @@
     }
   }
   .lyrics {
+    a {
     color: #BFDBF7;
       &:hover {
         color: $taupe;
       }
+    }
   }
   #bey-ken {
     width: 40vw;

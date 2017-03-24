@@ -32,9 +32,17 @@
   .info-link {
     a {
     color: $med-blue;
+      &:hover {
+        color: $pale-taupe;
+      }
     }
   }
   .lyrics {
+    a {
     color: $med-blue;
+      &:hover {
+        color: $pale-taupe;
+      }
+    }  
   }
 }

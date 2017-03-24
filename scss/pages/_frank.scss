@@ -30,7 +30,11 @@
   @include content;
   color: $hookers-green;
   .lyrics {
-    color: $anti-flash;
+    a {
+      color: $anti-flash;
+      &:hover {
+        color: $purple-navy;
+      }
+    }
   }
-
 }

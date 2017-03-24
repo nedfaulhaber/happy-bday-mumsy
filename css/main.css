@@ -771,8 +771,12 @@ body {
       margin: 0 1.5em 0 1.5em; } }
   #t-content .info-link a {
     color: #DF3538; }
-  #t-content .lyrics {
+    #t-content .info-link a:hover {
+      color: #BDC37C; }
+  #t-content .lyrics a {
     color: #DF3538; }
+    #t-content .lyrics a:hover {
+      color: #BDC37C; }
 
 #r-wrapper {
   background-color: #030726; }
@@ -907,8 +911,10 @@ body {
   @media screen and (max-width: 435px) {
     #r-content {
       margin: 0 1.5em 0 1.5em; } }
-  #r-content .lyrics {
+  #r-content .lyrics a {
     color: #B94399; }
+    #r-content .lyrics a:hover {
+      color: #C8BFC7; }
 
 #b-wrapper {
   background-color: #010101; }
@@ -1045,8 +1051,12 @@ body {
       margin: 0 1.5em 0 1.5em; } }
   #b-content .info-link a {
     color: #0200C2; }
-  #b-content .lyrics {
+    #b-content .info-link a:hover {
+      color: #C89682; }
+  #b-content .lyrics a {
     color: #0200C2; }
+    #b-content .lyrics a:hover {
+      color: #C89682; }
 
 #s-wrapper {
   background-color: #003049; }
@@ -1187,8 +1197,12 @@ body {
       margin: 0 1.5em 0 1.5em; } }
   #s-content .info-link a {
     color: #F9C22E; }
-  #s-content .lyrics {
+    #s-content .info-link a:hover {
+      color: #1F487E; }
+  #s-content .lyrics a {
     color: #F9C22E; }
+    #s-content .lyrics a:hover {
+      color: #1F487E; }
 
 #f-wrapper {
   background-color: #2D232E; }
@@ -1323,8 +1337,10 @@ body {
   @media screen and (max-width: 435px) {
     #f-content {
       margin: 0 1.5em 0 1.5em; } }
-  #f-content .lyrics {
+  #f-content .lyrics a {
     color: #F04E56; }
+    #f-content .lyrics a:hover {
+      color: #63372C; }
   #f-content #tove-lo {
     height: auto;
     width: 25vw;
@@ -1485,8 +1501,10 @@ body {
   @media screen and (max-width: 435px) {
     #c-content {
       margin: 0 1.5em 0 1.5em; } }
-  #c-content .lyrics {
+  #c-content .lyrics a {
     color: #FB8B24; }
+    #c-content .lyrics a:hover {
+      color: #442B48; }
   #c-content #andre {
     height: auto;
     width: 25vw;
@@ -1649,8 +1667,10 @@ body {
   @media screen and (max-width: 435px) {
     #sn-content {
       margin: 0 1.5em 0 1.5em; } }
-  #sn-content .lyrics {
-    color: #F1DABF; }
+  #sn-content .lyrics a {
+    color: #92817A; }
+    #sn-content .lyrics a:hover {
+      color: #F1DABF; }
 
 #d-wrapper {
   background-color: #042A2B; }
@@ -1796,8 +1816,12 @@ body {
       margin: 0 1.5em 0 1.5em; } }
   #d-content .info-link a {
     color: #BF7A2E; }
-  #d-content .lyrics {
+    #d-content .info-link a:hover {
+      color: #FFF0D6; }
+  #d-content .lyrics a {
     color: #BF7A2E; }
+    #d-content .lyrics a:hover {
+      color: #FFF0D6; }
   #d-content #rhorer {
     height: auto;
     width: 25vw;
@@ -1960,9 +1984,9 @@ body {
     color: #BFDBF7; }
     #bey-content .info-link a:hover {
       color: #463F3A; }
-  #bey-content .lyrics {
+  #bey-content .lyrics a {
     color: #BFDBF7; }
-    #bey-content .lyrics:hover {
+    #bey-content .lyrics a:hover {
       color: #463F3A; }
   #bey-content #bey-ken {
     width: 40vw; }
@@ -2251,8 +2275,10 @@ body {
   @media screen and (max-width: 435px) {
     #fo-content {
       margin: 0 1.5em 0 1.5em; } }
-  #fo-content .lyrics {
+  #fo-content .lyrics a {
     color: #F2F2F2; }
+    #fo-content .lyrics a:hover {
+      color: #3D5A80; }
 
 #ch-wrapper {
   background-color: #4357AD; }
@@ -2389,8 +2415,12 @@ body {
       margin: 0 1.5em 0 1.5em; } }
   #ch-content .info-link a {
     color: #D1345B; }
-  #ch-content .lyrics {
+    #ch-content .info-link a:hover {
+      color: #22181C; }
+  #ch-content .lyrics a {
     color: #D1345B; }
+    #ch-content .lyrics a:hover {
+      color: #22181C; }
 
 #w-wrapper {
   background-color: #0A0509; }
@@ -2536,8 +2566,12 @@ body {
       margin: 0 1.5em 0 1.5em; } }
   #w-content .info-link a {
     color: #D69F7E; }
-  #w-content .lyrics {
+    #w-content .info-link a:hover {
+      color: #F6F7EB; }
+  #w-content .lyrics a {
     color: #D69F7E; }
+    #w-content .lyrics a:hover {
+      color: #F6F7EB; }
   #w-content #daft-punk {
     height: auto;
     width: 25vw;
@@ -2689,7 +2723,9 @@ body {
   @media screen and (max-width: 435px) {
     #j-content {
       margin: 0 1.5em 0 1.5em; } }
-  #j-content .lyrics {
+  #j-content .lyrics a {
     color: #EED4A2; }
+    #j-content .lyrics a:hover {
+      color: #582707; }
 
 /*# sourceMappingURL=main.css.map */

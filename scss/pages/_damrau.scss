@@ -36,11 +36,19 @@
   .info-link {
     a {
     color: $copper;
+      &:hover {
+        color: $papaya-whip;
+      }
     }
   }
   .lyrics {
-    color: $copper;
-  }
+    a {
+      color: $copper;
+        &:hover {
+          color: $papaya-whip;
+        }
+      }
+    }
   #rhorer {
     @include feat-artist;
   }

@@ -34,7 +34,12 @@
   @include content;
   color: $queen-pink;
   .lyrics {
+    a {
     color: $princeton-orange;
+      &:hover {
+        color: $old-burgundy;
+      }
+    }
   }
   #andre {
     @include feat-artist;

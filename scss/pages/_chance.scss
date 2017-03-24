@@ -32,9 +32,17 @@
   .info-link {
     a {
     color: $cherry;
+    &:hover {
+      color: $eerie-black;
+    }
     }
   }
   .lyrics {
-    color: $cherry;
+    a {
+      color: $cherry;
+      &:hover {
+        color: $eerie-black;
+      }
+    }
   }
 }

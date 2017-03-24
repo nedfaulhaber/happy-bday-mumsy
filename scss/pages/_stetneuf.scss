@@ -39,6 +39,11 @@
   @include content;
   color: $smoky-topaz;
   .lyrics {
-    color: $dutch-white;
+    a {
+      color: $cinereous;
+      &:hover {
+        color: $dutch-white;
+      }
+    }
   }
 }
