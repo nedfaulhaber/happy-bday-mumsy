@@ -1,5 +1,5 @@
 #a-wrapper {
-  background-color: $dark-purple;
+  background-color: $gunmetal;
 }
 
 #a-mobile-nav {
@@ -12,7 +12,7 @@
 
 #a-nav {
   @include nav;
-  background-color: $dark-purple;
+  background-color: $gunmetal;
   a {
     color: $gainsboro;
     &:hover {
@@ -32,10 +32,15 @@
   .info-link {
     a {
     color: $android-green;
+      &:hover {
+        color: $pantone-red;
+      }
     }
   }
   .lyrics {
     color: $android-green;
+      &:hover {
+        color: $pantone-red;
+      }
   }
-
 }

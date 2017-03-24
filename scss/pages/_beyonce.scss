@@ -35,10 +35,16 @@
   .info-link {
     a {
     color: #BFDBF7;
+      &:hover {
+        color: $taupe;
+      }
     }
   }
   .lyrics {
     color: #BFDBF7;
+      &:hover {
+        color: $taupe;
+      }
   }
   #bey-ken {
     width: 40vw;
