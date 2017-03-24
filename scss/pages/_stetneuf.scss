@@ -38,12 +38,4 @@
 #sn-content {
   @include content;
   color: $smoky-topaz;
-  .lyrics {
-    a {
-      color: $cinereous;
-      &:hover {
-        color: $dutch-white;
-      }
-    }
-  }
 }

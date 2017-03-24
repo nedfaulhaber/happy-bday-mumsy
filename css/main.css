@@ -1667,10 +1667,6 @@ body {
   @media screen and (max-width: 435px) {
     #sn-content {
       margin: 0 1.5em 0 1.5em; } }
-  #sn-content .lyrics a {
-    color: #92817A; }
-    #sn-content .lyrics a:hover {
-      color: #F1DABF; }
 
 #d-wrapper {
   background-color: #042A2B; }
