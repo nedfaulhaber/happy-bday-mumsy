@@ -1,0 +1,58 @@
+#mo-wrapper {
+  background-color: $fiery-rose;
+}
+
+.sidenav {
+  @include mobilenav;
+  background-color: #197278;
+  a {
+    color: #F3E9DC;
+  }
+}
+
+#mo-nav {
+  @include nav;
+  background-color: $fiery-rose;
+  a {
+    color: #F3E9DC;
+    &:hover {
+      color: steelblue;
+    }
+  }
+}
+
+.mo-header {
+  color: #FCE0FC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0 14em 0 14em;
+  @media screen and (max-width: 525px) {
+    padding: 1em 2em 0;
+    font-size: 1.5em;
+  }
+  h1 {
+    margin-bottom: 2em;
+    font-family: 'Unkempt', cursive;
+    text-shadow: 5px 5px 1px #6247AA;
+  }
+  h4 {
+    font-family: 'Indie Flower', cursive;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
+}
