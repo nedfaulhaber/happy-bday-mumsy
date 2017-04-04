@@ -14,15 +14,15 @@
   @include nav;
   background-color: $fiery-rose;
   a {
-    color: #F3E9DC;
+    color: $pink-lace;
     &:hover {
-      color: steelblue;
+      color: $plump-purple;
     }
   }
 }
 
 .mo-header {
-  color: #FCE0FC;
+  color: $pink-lace;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,23 @@
   text-align: center;
   width: 100%;
   height: auto;
-  padding: 0 14em 0 14em;
+  padding: 0 3em 0 3em;
+  .header-content {
+    display: flex;
+    justify-content: space-around;
+    .header-text {
+      padding: 4.5em 2em 0;
+    }
+    img {
+      border-radius: 85px;
+      border: 3px solid $light-med-orchid;
+    }
+  }
+  h3 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: .14em;
+    line-height: 1.7em;
+  }
   @media screen and (max-width: 525px) {
     padding: 1em 2em 0;
     font-size: 1.5em;
@@ -38,10 +54,7 @@
   h1 {
     margin-bottom: 2em;
     font-family: 'Unkempt', cursive;
-    text-shadow: 5px 5px 1px #6247AA;
-  }
-  h4 {
-    font-family: 'Indie Flower', cursive;
+    text-shadow: 5px 5px 1px $plump-purple;
   }
   .hamburger {
     align-self: flex-start;
@@ -54,5 +67,27 @@
       height: 0;
       width: 0;
     }
+  }
+}
+
+.drawings {
+  color: $pink-lace;
+  padding: 3em 2em 5em 2em;
+  h3 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: .14em;
+    line-height: 1.7em;
+  }
+  .postcard-front {
+    @include drawings;
+  }
+  .postcard-back {
+    @include drawings2;
+  }
+  .fox {
+    @include drawings;
+  }
+  .daddy {
+    @include drawings2;
   }
 }

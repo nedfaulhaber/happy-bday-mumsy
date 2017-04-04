@@ -2774,9 +2774,9 @@ body {
       height: 0;
       width: 0; } }
   #mo-nav a {
-    color: #F3E9DC; }
+    color: #FCE0FC; }
     #mo-nav a:hover {
-      color: steelblue; }
+      color: #6247AA; }
 
 .mo-header {
   color: #FCE0FC;
@@ -2787,7 +2787,19 @@ body {
   text-align: center;
   width: 100%;
   height: auto;
-  padding: 0 14em 0 14em; }
+  padding: 0 3em 0 3em; }
+  .mo-header .header-content {
+    display: flex;
+    justify-content: space-around; }
+    .mo-header .header-content .header-text {
+      padding: 4.5em 2em 0; }
+    .mo-header .header-content img {
+      border-radius: 85px;
+      border: 3px solid #D999B9; }
+  .mo-header h3 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: .14em;
+    line-height: 1.7em; }
   @media screen and (max-width: 525px) {
     .mo-header {
       padding: 1em 2em 0;
@@ -2796,8 +2808,6 @@ body {
     margin-bottom: 2em;
     font-family: 'Unkempt', cursive;
     text-shadow: 5px 5px 1px #6247AA; }
-  .mo-header h4 {
-    font-family: 'Indie Flower', cursive; }
   .mo-header .hamburger {
     align-self: flex-start;
     color: white;
@@ -2809,5 +2819,51 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+
+.drawings {
+  color: #FCE0FC;
+  padding: 3em 2em 5em 2em; }
+  .drawings h3 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: .14em;
+    line-height: 1.7em; }
+  .drawings .postcard-front {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0 3em 0; }
+    .drawings .postcard-front .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 2em; }
+  .drawings .postcard-back {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 3em 0 3em 0; }
+    .drawings .postcard-back .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 2em; }
+  .drawings .fox {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0 3em 0; }
+    .drawings .fox .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 2em; }
+  .drawings .daddy {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 3em 0 3em 0; }
+    .drawings .daddy .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 2em; }
 
 /*# sourceMappingURL=main.css.map */

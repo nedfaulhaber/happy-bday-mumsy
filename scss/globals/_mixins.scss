@@ -187,3 +187,28 @@
     margin: $mobile-content;
   }
 }
+
+@mixin drawings {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 0 3em 0;
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2em;
+  }
+}
+
+@mixin drawings2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  padding: 3em 0 3em 0;
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+  }
+}
