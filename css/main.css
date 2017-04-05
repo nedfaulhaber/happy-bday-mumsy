@@ -2790,11 +2790,26 @@ body {
   padding: 0 3em 0 3em; }
   .mo-header .header-content {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: center; }
+    @media only screen and (max-width: 625px) {
+      .mo-header .header-content {
+        flex-direction: column;
+        align-items: center;
+        font-size: .75em; } }
+    .mo-header .header-content .mo-shelby img {
+      height: auto;
+      width: 30vw; }
     .mo-header .header-content .header-text {
-      padding: 4.5em 2em 0; }
+      padding: 0 6em 0; }
+      .mo-header .header-content .header-text h2 {
+        font-family: "Indie Flower", cursive;
+        color: #FCE0FC;
+        font-size: 2em;
+        letter-spacing: .1em;
+        line-height: 1.4em; }
     .mo-header .header-content img {
-      border-radius: 85px;
+      border-radius: 50%;
       border: 3px solid #D999B9; }
   .mo-header h3 {
     font-family: 'Indie Flower', cursive;
@@ -2822,7 +2837,9 @@ body {
 
 .drawings {
   color: #FCE0FC;
-  padding: 3em 2em 5em 2em; }
+  padding: 3em 2em 5em 2em;
+  height: auto;
+  width: 100%; }
   .drawings h3 {
     font-family: 'Indie Flower', cursive;
     letter-spacing: .14em;
@@ -2830,7 +2847,16 @@ body {
   .drawings .postcard-front {
     display: flex;
     justify-content: space-around;
-    padding: 3em 0 3em 0; }
+    padding: 3em 0 3em 0;
+    height: auto;
+    width: 100%; }
+    @media only screen and (max-width: 625px) {
+      .drawings .postcard-front {
+        flex-direction: column;
+        align-items: center; } }
+    .drawings .postcard-front .drawing img {
+      height: auto;
+      width: 50vw; }
     .drawings .postcard-front .description {
       display: flex;
       justify-content: center;
@@ -2840,7 +2866,12 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    padding: 3em 0 3em 0; }
+    padding: 3em 0 3em 0;
+    height: auto;
+    width: 100%; }
+    .drawings .postcard-back .drawing img {
+      height: auto;
+      width: 50vw; }
     .drawings .postcard-back .description {
       display: flex;
       justify-content: center;
@@ -2849,7 +2880,16 @@ body {
   .drawings .fox {
     display: flex;
     justify-content: space-around;
-    padding: 3em 0 3em 0; }
+    padding: 3em 0 3em 0;
+    height: auto;
+    width: 100%; }
+    @media only screen and (max-width: 625px) {
+      .drawings .fox {
+        flex-direction: column;
+        align-items: center; } }
+    .drawings .fox .drawing img {
+      height: auto;
+      width: 50vw; }
     .drawings .fox .description {
       display: flex;
       justify-content: center;
@@ -2859,7 +2899,12 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    padding: 3em 0 3em 0; }
+    padding: 3em 0 3em 0;
+    height: auto;
+    width: 100%; }
+    .drawings .daddy .drawing img {
+      height: auto;
+      width: 50vw; }
     .drawings .daddy .description {
       display: flex;
       justify-content: center;
