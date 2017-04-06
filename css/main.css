@@ -2737,7 +2737,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #197278; }
+  background-color: #6247AA; }
   .sidenav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
@@ -2754,7 +2754,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   .sidenav a {
-    color: #F3E9DC; }
+    color: #FCE0FC; }
 
 #mo-nav {
   display: flex;
@@ -2794,27 +2794,31 @@ body {
     align-items: center; }
     @media only screen and (max-width: 625px) {
       .mo-header .header-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         font-size: .75em; } }
     .mo-header .header-content .mo-shelby img {
       height: auto;
-      width: 30vw; }
+      width: 30vw;
+      border-radius: 50%;
+      border: 3px solid #D999B9; }
+      @media screen and (max-width: 525px) {
+        .mo-header .header-content .mo-shelby img {
+          width: 80%; } }
     .mo-header .header-content .header-text {
       padding: 0 6em 0; }
+      @media screen and (max-width: 525px) {
+        .mo-header .header-content .header-text {
+          padding: 5em 2em 2em 2em; } }
       .mo-header .header-content .header-text h2 {
         font-family: "Indie Flower", cursive;
         color: #FCE0FC;
         font-size: 2em;
         letter-spacing: .1em;
         line-height: 1.4em; }
-    .mo-header .header-content img {
-      border-radius: 50%;
-      border: 3px solid #D999B9; }
-  .mo-header h3 {
-    font-family: 'Indie Flower', cursive;
-    letter-spacing: .14em;
-    line-height: 1.7em; }
+        @media screen and (max-width: 525px) {
+          .mo-header .header-content .header-text h2 {
+            font-size: 2.5em; } }
   @media screen and (max-width: 525px) {
     .mo-header {
       padding: 1em 2em 0;
@@ -2840,10 +2844,10 @@ body {
   padding: 3em 2em 5em 2em;
   height: auto;
   width: 100%; }
-  .drawings h3 {
+  .drawings h2 {
     font-family: 'Indie Flower', cursive;
-    letter-spacing: .14em;
-    line-height: 1.7em; }
+    letter-spacing: .12em;
+    line-height: 1.3em; }
   .drawings .postcard-front {
     display: flex;
     justify-content: space-around;
@@ -2856,15 +2860,23 @@ body {
         align-items: center; } }
     .drawings .postcard-front .drawing img {
       height: auto;
-      width: 50vw; }
+      width: 50vw;
+      border: 2px solid #6247AA; }
+      @media screen and (max-width: 525px) {
+        .drawings .postcard-front .drawing img {
+          width: 100%; } }
     .drawings .postcard-front .description {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-left: 2em; }
+      padding: 0 0 0 2em; }
+      .drawings .postcard-front .description h2 {
+        font-size: 2em; }
       @media screen and (max-width: 525px) {
-        .drawings .postcard-front .description h3 {
-          font-size: 2em; } }
+        .drawings .postcard-front .description {
+          padding: 2em 2em;
+          text-align: center;
+          font-size: 1.3em; } }
   .drawings .postcard-back {
     display: flex;
     justify-content: space-around;
@@ -2878,12 +2890,23 @@ body {
         align-items: center; } }
     .drawings .postcard-back .drawing img {
       height: auto;
-      width: 50vw; }
+      width: 50vw;
+      border: 2px solid #6247AA; }
+      @media screen and (max-width: 525px) {
+        .drawings .postcard-back .drawing img {
+          width: 100%; } }
     .drawings .postcard-back .description {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-right: 2em; }
+      padding: 0 1em 0 2em; }
+      .drawings .postcard-back .description h2 {
+        font-size: 2em; }
+      @media screen and (max-width: 525px) {
+        .drawings .postcard-back .description {
+          padding: 2em 2em;
+          text-align: center;
+          font-size: 1.3em; } }
   .drawings .fox {
     display: flex;
     justify-content: space-around;
@@ -2896,15 +2919,23 @@ body {
         align-items: center; } }
     .drawings .fox .drawing img {
       height: auto;
-      width: 50vw; }
+      width: 50vw;
+      border: 2px solid #6247AA; }
+      @media screen and (max-width: 525px) {
+        .drawings .fox .drawing img {
+          width: 100%; } }
     .drawings .fox .description {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-left: 2em; }
+      padding: 0 0 0 2em; }
+      .drawings .fox .description h2 {
+        font-size: 2em; }
       @media screen and (max-width: 525px) {
-        .drawings .fox .description h3 {
-          font-size: 2em; } }
+        .drawings .fox .description {
+          padding: 2em 2em;
+          text-align: center;
+          font-size: 1.3em; } }
   .drawings .daddy {
     display: flex;
     justify-content: space-around;
@@ -2918,11 +2949,22 @@ body {
         align-items: center; } }
     .drawings .daddy .drawing img {
       height: auto;
-      width: 50vw; }
+      width: 50vw;
+      border: 2px solid #6247AA; }
+      @media screen and (max-width: 525px) {
+        .drawings .daddy .drawing img {
+          width: 100%; } }
     .drawings .daddy .description {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-right: 2em; }
+      padding: 0 1em 0 2em; }
+      .drawings .daddy .description h2 {
+        font-size: 2em; }
+      @media screen and (max-width: 525px) {
+        .drawings .daddy .description {
+          padding: 2em 2em;
+          text-align: center;
+          font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */

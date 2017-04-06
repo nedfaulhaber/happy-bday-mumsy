@@ -202,17 +202,24 @@
     img {
       height: auto;
       width: 50vw;
+      border: 2px solid $plump-purple;
+      @media screen and (max-width: 525px) {
+        width: 100%;
+      }
     }
   }
   .description {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 2em;
-    h3 {
-      @media screen and (max-width: 525px) {
-        font-size: 2em;
-      }
+    padding: 0 0 0 2em;
+    h2 {
+      font-size: 2em;
+    }
+    @media screen and (max-width: 525px) {
+      padding: 2em 2em;
+      text-align: center;
+      font-size: 1.3em;
     }
   }
 }
@@ -232,12 +239,24 @@
     img {
       height: auto;
       width: 50vw;
+      border: 2px solid $plump-purple;
+      @media screen and (max-width: 525px) {
+        width: 100%;
+      }
     }
   }
   .description {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 2em;
+    padding: 0 1em 0 2em;
+    h2 {
+      font-size: 2em;
+    }
+    @media screen and (max-width: 525px) {
+      padding: 2em 2em;
+      text-align: center;
+      font-size: 1.3em;
+    }
   }
 }

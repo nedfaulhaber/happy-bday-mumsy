@@ -4,9 +4,9 @@
 
 .sidenav {
   @include mobilenav;
-  background-color: #197278;
+  background-color: $plump-purple;
   a {
-    color: #F3E9DC;
+    color: $pink-lace;
   }
 }
 
@@ -36,7 +36,7 @@
     justify-content: space-around;
     align-items: center;
     @media only screen and (max-width: 625px) {
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
       font-size: .75em;
     }
@@ -44,28 +44,31 @@
       img {
         height: auto;
         width: 30vw;
+        border-radius: 50%;
+        border: 3px solid $light-med-orchid;
+        @media screen and (max-width: 525px) {
+          width: 80%;
+        }
       }
     }
     .header-text {
       padding: 0 6em 0;
+      @media screen and (max-width: 525px) {
+        padding: 5em 2em 2em 2em;
+      }
       h2 {
         font-family: "Indie Flower", cursive;
         color: $pink-lace;
         font-size: 2em;
         letter-spacing: .1em;
         line-height: 1.4em;
+        @media screen and (max-width: 525px){
+          font-size: 2.5em;
+        }
       }
     }
-    img {
-      border-radius: 50%;
-      border: 3px solid $light-med-orchid;
-    }
   }
-  h3 {
-    font-family: 'Indie Flower', cursive;
-    letter-spacing: .14em;
-    line-height: 1.7em;
-  }
+
   @media screen and (max-width: 525px) {
     padding: 1em 2em 0;
     font-size: 1.5em;
@@ -94,10 +97,10 @@
   padding: 3em 2em 5em 2em;
   height: auto;
   width: 100%;
-  h3 {
+  h2 {
     font-family: 'Indie Flower', cursive;
-    letter-spacing: .14em;
-    line-height: 1.7em;
+    letter-spacing: .12em;
+    line-height: 1.3em;
   }
   .postcard-front {
     @include drawings;
