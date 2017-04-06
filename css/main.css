@@ -2862,6 +2862,9 @@ body {
       justify-content: center;
       align-items: center;
       padding-left: 2em; }
+      @media screen and (max-width: 525px) {
+        .drawings .postcard-front .description h3 {
+          font-size: 2em; } }
   .drawings .postcard-back {
     display: flex;
     justify-content: space-around;
@@ -2869,6 +2872,10 @@ body {
     padding: 3em 0 3em 0;
     height: auto;
     width: 100%; }
+    @media only screen and (max-width: 625px) {
+      .drawings .postcard-back {
+        flex-direction: column;
+        align-items: center; } }
     .drawings .postcard-back .drawing img {
       height: auto;
       width: 50vw; }
@@ -2895,6 +2902,9 @@ body {
       justify-content: center;
       align-items: center;
       padding-left: 2em; }
+      @media screen and (max-width: 525px) {
+        .drawings .fox .description h3 {
+          font-size: 2em; } }
   .drawings .daddy {
     display: flex;
     justify-content: space-around;
@@ -2902,6 +2912,10 @@ body {
     padding: 3em 0 3em 0;
     height: auto;
     width: 100%; }
+    @media only screen and (max-width: 625px) {
+      .drawings .daddy {
+        flex-direction: column;
+        align-items: center; } }
     .drawings .daddy .drawing img {
       height: auto;
       width: 50vw; }
