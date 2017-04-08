@@ -391,6 +391,35 @@ body {
 #maya-wrapper {
   background-color: #B3DEAF; }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: #197278; }
+  .sidenav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Satisfy', cursive; }
+  .sidenav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  .sidenav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  .sidenav a {
+    color: #F3E9DC; }
+
 #maya-nav {
   display: flex;
   justify-content: space-between;
@@ -430,12 +459,31 @@ body {
     .link a:hover {
       color: #804A11; }
 
+.hamburger {
+  align-self: flex-end;
+  color: white;
+  margin: 1em 1.2em 0 0;
+  float: right;
+  font-size: 3em;
+  cursor: pointer; }
+  @media screen and (min-width: 525px) {
+    .hamburger {
+      display: none;
+      height: 0;
+      width: 0; } }
+
 .m-header {
   text-align: center; }
+  @media screen and (max-width: 380px) {
+    .m-header {
+      margin-top: 2em; } }
   .m-header h1 {
     color: #36151E;
     padding-bottom: 0.5em;
     font-family: 'Unkempt', cursive; }
+    @media screen and (max-width: 380px) {
+      .m-header h1 {
+        font-size: 5em; } }
   .m-header h4 {
     color: #660000;
     line-height: 1.5em;
