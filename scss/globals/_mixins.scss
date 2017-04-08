@@ -216,9 +216,12 @@
     h2 {
       font-size: 2em;
     }
+    @media screen and (max-width: 625px) {
+      padding-top: 2em;
+      text-align: center;
+    }
     @media screen and (max-width: 525px) {
       padding: 2em 2em;
-      text-align: center;
       font-size: 1.3em;
     }
   }
@@ -253,9 +256,12 @@
     h2 {
       font-size: 2em;
     }
+    @media screen and (max-width: 625px) {
+      padding-top: 2em;
+      text-align: center;
+    }
     @media screen and (max-width: 525px) {
       padding: 2em 2em;
-      text-align: center;
       font-size: 1.3em;
     }
   }

@@ -443,32 +443,45 @@ body {
     font-size: 1.875em; }
 
 .graphboxythingy {
-  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding-top: 2.2em; }
-  .graphboxythingy .column {
+  .graphboxythingy .row {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end; }
-    .graphboxythingy .column .box {
+    justify-content: center;
+    width: 100%; }
+    @media only screen and (max-width: 625px) {
+      .graphboxythingy .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; } }
+    .graphboxythingy .row .box {
       width: 18.97em;
       height: 18.97em;
       background-color: #247BA0;
       border: 2px solid #EBBAB9; }
-      .graphboxythingy .column .box img {
+      @media screen and (max-width: 625px) {
+        .graphboxythingy .row .box {
+          width: 80%;
+          height: auto; } }
+      .graphboxythingy .row .box img {
         height: 100%;
         width: 100%; }
-    .graphboxythingy .column #vice, .graphboxythingy .column #alive {
+    .graphboxythingy .row #vice, .graphboxythingy .row #alive {
       background-image: url("../img/Vice - EP.png");
       background-position: center;
       background-size: cover;
       border: 2px solid #E61422;
       color: #FFF100;
       text-shadow: 2px 2px 2px black; }
-      .graphboxythingy .column #vice p, .graphboxythingy .column #alive p {
+      .graphboxythingy .row #vice p, .graphboxythingy .row #alive p {
         font-size: 1.3em; }
-    .graphboxythingy .column #runthisplace {
+      .graphboxythingy .row #vice audio, .graphboxythingy .row #alive audio {
+        width: 100%; }
+      @media screen and (max-width: 625px) {
+        .graphboxythingy .row #vice, .graphboxythingy .row #alive {
+          height: 35vh; } }
+    .graphboxythingy .row #runthisplace {
       background-image: url("../img/Run this place - single.png");
       background-position: center;
       background-size: cover;
@@ -476,13 +489,30 @@ body {
       color: #FFF100;
       text-shadow: 2px 2px 2px black;
       text-align: center; }
-      .graphboxythingy .column #runthisplace p {
+      .graphboxythingy .row #runthisplace p {
         font-size: 1.3em; }
-      .graphboxythingy .column #runthisplace #youtube1 #youtube2 {
-        color: #FFF100;
-        text-shadow: 2px 2px 2px black;
-        height: 100%;
+      .graphboxythingy .row #runthisplace audio {
         width: 100%; }
+      @media screen and (max-width: 625px) {
+        .graphboxythingy .row #runthisplace {
+          height: 35vh; } }
+    .graphboxythingy .row #youtube1 #youtube2 {
+      color: #FFF100;
+      text-shadow: 2px 2px 2px black; }
+      @media screen and (max-width: 1142px) {
+        .graphboxythingy .row #youtube1 #youtube2 iframe {
+          height: 100%;
+          width: 100%; } }
+    .graphboxythingy .row #youtube1 p {
+      background-color: black;
+      color: #E5E5E5;
+      font-size: 1.3em;
+      text-align: center; }
+      @media screen and (min-width: 380px) {
+        .graphboxythingy .row #youtube1 p {
+          display: none;
+          height: 0;
+          width: 0; } }
 
 .cat {
   color: #473AAA;
@@ -2872,10 +2902,13 @@ body {
       padding: 0 0 0 2em; }
       .drawings .postcard-front .description h2 {
         font-size: 2em; }
+      @media screen and (max-width: 625px) {
+        .drawings .postcard-front .description {
+          padding-top: 2em;
+          text-align: center; } }
       @media screen and (max-width: 525px) {
         .drawings .postcard-front .description {
           padding: 2em 2em;
-          text-align: center;
           font-size: 1.3em; } }
   .drawings .postcard-back {
     display: flex;
@@ -2902,10 +2935,13 @@ body {
       padding: 0 1em 0 2em; }
       .drawings .postcard-back .description h2 {
         font-size: 2em; }
+      @media screen and (max-width: 625px) {
+        .drawings .postcard-back .description {
+          padding-top: 2em;
+          text-align: center; } }
       @media screen and (max-width: 525px) {
         .drawings .postcard-back .description {
           padding: 2em 2em;
-          text-align: center;
           font-size: 1.3em; } }
   .drawings .fox {
     display: flex;
@@ -2931,10 +2967,13 @@ body {
       padding: 0 0 0 2em; }
       .drawings .fox .description h2 {
         font-size: 2em; }
+      @media screen and (max-width: 625px) {
+        .drawings .fox .description {
+          padding-top: 2em;
+          text-align: center; } }
       @media screen and (max-width: 525px) {
         .drawings .fox .description {
           padding: 2em 2em;
-          text-align: center;
           font-size: 1.3em; } }
   .drawings .daddy {
     display: flex;
@@ -2961,10 +3000,13 @@ body {
       padding: 0 1em 0 2em; }
       .drawings .daddy .description h2 {
         font-size: 2em; }
+      @media screen and (max-width: 625px) {
+        .drawings .daddy .description {
+          padding-top: 2em;
+          text-align: center; } }
       @media screen and (max-width: 525px) {
         .drawings .daddy .description {
           padding: 2em 2em;
-          text-align: center;
           font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */
