@@ -2,7 +2,7 @@
   background-color: $fiery-rose;
 }
 
-.sidenav {
+#mo-mobile-nav {
   @include mobilenav;
   background-color: $plump-purple;
   a {

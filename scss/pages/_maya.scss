@@ -1,22 +1,22 @@
 #maya-wrapper {
-  background-color: #B3DEAF;
+  background-color: $light-moss-green;
   }
 
-  .sidenav {
-    @include mobilenav;
-    background-color: #197278;
-    a {
-      color: #F3E9DC;
-    }
+#maya-mobile-nav {
+  @include mobilenav;
+  background-color: $dark-sienna;
+  a {
+    color: $lust;
   }
+}
 
   #maya-nav {
     @include nav;
-    background-color: #B3DEAF;
+    background-color: $light-moss-green;
     a {
-      color: #660000;
+      color: $rosewood;
       &:hover {
-        color: #17BEBB;
+        color: $tiffany-blue;
       }
     }
     @media screen and (max-width: 524px) {
@@ -27,16 +27,16 @@
   }
 
 .link {
-  padding: 2em 0 0 2em;
+  padding: 2em 0 2em 2em;
   a {
-    color: #52238C;
+    color: $ksu-purple;
     text-decoration: none;
     font-family: serif;
     font-size: 1.3em;
     font-family: 'Tulpen one', cursive;
     font-size: 2.500em;
     &:hover{
-      color:#804A11;
+      color:$russet;
     }
   }
 }
@@ -60,18 +60,22 @@
     margin-top: 2em;
   }
   h1 {
-    color: #36151E;
+    color: $dark-sienna;
     padding-bottom: 0.5em;
     font-family: 'Unkempt', cursive;
     @media screen and (max-width: 380px) {
-      font-size: 5em;
+      font-size: 6em;
     }
   }
   h4 {
-    color: #660000;
+    color: $rosewood;
     line-height: 1.5em;
     font-family: 'Yellowtail', cursive;
     font-size: 1.875em;
+    @media screen and (max-width: 380px) {
+      font-size: 2.25em;
+    }
+    padding: 0 2em 0;
   }
 }
 
@@ -107,7 +111,7 @@
       background-position: center;
       background-size: cover;
       border: 2px solid #E61422;
-      color: #FFF100;
+      color: $yellow-rose;
       text-shadow: 2px 2px 2px black;
       p {
         font-size: 1.3em;
@@ -124,7 +128,7 @@
       background-position: center;
       background-size: cover;
       border: 2px solid #E61422;
-      color: #FFF100;
+      color: $yellow-rose;
       text-shadow: 2px 2px 2px black;
       text-align: center;
       p {
@@ -139,7 +143,7 @@
     }
 
     #youtube1 #youtube2 {
-      color: #FFF100;
+      color: $yellow-rose;
       text-shadow: 2px 2px 2px black;
       iframe {
         @media screen and (max-width: 1142px) {
@@ -151,7 +155,7 @@
     #youtube1 {
       p {
         background-color: black;
-        color: #E5E5E5;
+        color: $platinum;
         font-size: 1.3em;
         text-align: center;
         @media screen and (min-width: 380px) {
@@ -164,7 +168,7 @@
   }
 }
 .cat {
-  color: #473AAA;
+  color: $ocean-blue;
   font-size: 1.5em;
   text-align: center;
   display: flex;

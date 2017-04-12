@@ -391,7 +391,7 @@ body {
 #maya-wrapper {
   background-color: #B3DEAF; }
 
-.sidenav {
+#maya-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -401,24 +401,24 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #197278; }
-  .sidenav a {
+  background-color: #36151E; }
+  #maya-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  .sidenav .sidenav .closebtn {
+  #maya-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  .sidenav .closebtn {
+  #maya-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  .sidenav a {
-    color: #F3E9DC; }
+  #maya-mobile-nav a {
+    color: #E61422; }
 
 #maya-nav {
   display: flex;
@@ -448,7 +448,7 @@ body {
       width: 0; } }
 
 .link {
-  padding: 2em 0 0 2em; }
+  padding: 2em 0 2em 2em; }
   .link a {
     color: #52238C;
     text-decoration: none;
@@ -483,12 +483,16 @@ body {
     font-family: 'Unkempt', cursive; }
     @media screen and (max-width: 380px) {
       .m-header h1 {
-        font-size: 5em; } }
+        font-size: 6em; } }
   .m-header h4 {
     color: #660000;
     line-height: 1.5em;
     font-family: 'Yellowtail', cursive;
-    font-size: 1.875em; }
+    font-size: 1.875em;
+    padding: 0 2em 0; }
+    @media screen and (max-width: 380px) {
+      .m-header h4 {
+        font-size: 2.25em; } }
 
 .graphboxythingy {
   display: flex;
@@ -2805,7 +2809,7 @@ body {
 #mo-wrapper {
   background-color: #F45B69; }
 
-.sidenav {
+#mo-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -2816,22 +2820,22 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #6247AA; }
-  .sidenav a {
+  #mo-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  .sidenav .sidenav .closebtn {
+  #mo-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  .sidenav .closebtn {
+  #mo-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  .sidenav a {
+  #mo-mobile-nav a {
     color: #FCE0FC; }
 
 #mo-nav {
