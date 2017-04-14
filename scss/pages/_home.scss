@@ -72,6 +72,9 @@ body {
       align-items: center;
     }
     .image {
+      a {
+        text-decoration: none;
+      }
       background-color: #197278;
       height: 20em;
       width: 22em;
@@ -87,21 +90,23 @@ body {
       @media only screen and (max-width: 625px) {
         width: 75%;
       }
-      border: .063em solid white;
       @media only screen and (max-width: 1029px) {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
+        a {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+        }
       }
+      border: .063em solid white;
       p {
         padding: 0 3em 2em 0;
         font-family: 'Ubuntu', sans-serif;
         font-weight: 300;
-        a {
-          text-decoration: none;
-          text-shadow: 0 0 1px black;
-          color: white;
-        }
+        text-shadow: 0 0 1px black;
+        color: white;
+
         @media screen and (min-width: 1030px) {
           padding: 0;
           opacity: 0;
@@ -138,7 +143,7 @@ body {
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
-        a {
+        p {
           text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
         }
       }
@@ -163,7 +168,7 @@ body {
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
-        a {
+        p {
           text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
         }
       }
@@ -203,7 +208,7 @@ body {
       background-size: cover;
       @media screen and (max-width: 415px) {
         background-position: top;
-        a {
+        p {
           text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
         }
       }
@@ -244,7 +249,7 @@ body {
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
-        a {
+        p {
           text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
         }
         p {
