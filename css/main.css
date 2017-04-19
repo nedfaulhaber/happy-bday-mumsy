@@ -372,9 +372,9 @@ body {
       @media screen and (max-width: 415px) {
         .gallery .row #frank {
           background-position: top; } }
-    .gallery .row #chance {
-      background-image: url("../img/chance.png");
-      background-position: center;
+    .gallery .row #kendrick {
+      background-image: url("../img/kendrick.png");
+      background-position: 42%;
       background-size: cover; }
     .gallery .row #weeknd {
       background-image: url("../img/weeknd.png");
@@ -2360,10 +2360,10 @@ body {
     #fo-content .lyrics a:hover {
       color: #3D5A80; }
 
-#ch-wrapper {
+#kl-wrapper {
   background-color: #4357AD; }
 
-#ch-mobile-nav {
+#kl-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -2374,25 +2374,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #22181C; }
-  #ch-mobile-nav a {
+  #kl-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  #ch-mobile-nav .sidenav .closebtn {
+  #kl-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #ch-mobile-nav .closebtn {
+  #kl-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #ch-mobile-nav a {
+  #kl-mobile-nav a {
     color: #4357AD; }
 
-#ch-nav {
+#kl-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2401,106 +2401,132 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #4357AD; }
-  #ch-nav a {
+  #kl-nav a {
     font-family: 'Satisfy', cursive;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #ch-nav {
+    #kl-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #ch-nav a {
+  #kl-nav a {
     color: white; }
-    #ch-nav a:hover {
+    #kl-nav a:hover {
       color: #D1345B; }
 
-#ch-header {
+#kl-header {
   margin: 5em 0 3em 3em;
   color: white; }
   @media screen and (max-width: 600px) {
-    #ch-header {
+    #kl-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #ch-header {
+    #kl-header {
       margin-top: 0; } }
-  #ch-header h2 {
+  #kl-header h2 {
     font-family: 'Sorts Mill Goudy', serif;
     margin-bottom: .2em; }
-  #ch-header .song {
+  #kl-header .song {
     font-family: 'Raleway', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #ch-header .song span {
+    #kl-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #ch-header .song span em {
+      #kl-header .song span em {
         font-style: italic; }
-  #ch-header .hamburger {
+  #kl-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #ch-header .hamburger {
+      #kl-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
+  #kl-header #alright {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #kl-header #alright {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #kl-header #alright {
+        text-align: center;
+        margin: 0 2em 0; } }
 
-#ch-content {
+#kl-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: white; }
-  #ch-content img {
+  #kl-content img {
     height: auto;
     width: 30vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #ch-content img {
+      #kl-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #ch-content img {
+      #kl-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #ch-content em {
+  #kl-content em {
     font-style: italic; }
-  #ch-content .info-link a {
+  #kl-content .info-link a {
     text-decoration: none; }
-  #ch-content .lyrics {
+  #kl-content .lyrics {
     margin-top: 2em;
     font-size: 1em;
     letter-spacing: .03em;
     line-height: 1.7em;
     font-weight: 400;
     text-indent: 1.5em; }
-    #ch-content .lyrics a {
+    #kl-content .lyrics a {
       text-decoration: none;
       color: inherit; }
   @media screen and (max-width: 600px) {
-    #ch-content {
+    #kl-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #ch-content {
+    #kl-content {
       margin: 0 1.5em 0 1.5em; } }
-  #ch-content .info-link a {
+  #kl-content .info-link a {
     color: #D1345B; }
-    #ch-content .info-link a:hover {
+    #kl-content .info-link a:hover {
       color: #22181C; }
-  #ch-content .lyrics a {
+  #kl-content .lyrics a {
     color: #D1345B; }
-    #ch-content .lyrics a:hover {
+    #kl-content .lyrics a:hover {
       color: #22181C; }
+  #kl-content #pharrell {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em; }
+    @media screen and (max-width: 600px) {
+      #kl-content #pharrell {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #kl-content #pharrell {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #kl-content #pharrell {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
 
 #w-wrapper {
   background-color: #0A0509; }

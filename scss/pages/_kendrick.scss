@@ -1,8 +1,8 @@
-#ch-wrapper {
+#kl-wrapper {
   background-color: $liberty;
 }
 
-#ch-mobile-nav {
+#kl-mobile-nav {
   @include mobilenav;
   background-color: $eerie-black;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#ch-nav {
+#kl-nav {
   @include nav;
   background-color: $liberty;
   a {
@@ -21,12 +21,16 @@
   }
 }
 
-#ch-header {
+#kl-header {
   @include artist-header;
   color: white;
+  #alright {
+  @include long-song;
+  line-height: 1.2em;
+  }
 }
 
-#ch-content {
+#kl-content {
   @include content;
   color: white;
   .info-link {
@@ -44,5 +48,8 @@
         color: $eerie-black;
       }
     }
+  }
+  #pharrell {
+    @include feat-artist;
   }
 }
